@@ -1,681 +1,795 @@
 Journal,Title,Authors,Author_Information,Abstract,DOI,Misc
-"1. J Clin Oncol. 2024 Oct 31:JCO2302761. doi: 10.1200/JCO.23.02761. Online ahead
-of  print.","Large-Scale Pharmacogenomics Analysis of Patients With Cancer Within the 100,000 
-Genomes Project Combining Whole-Genome Sequencing and Medical Records to Inform 
-Clinical Practice.","Leong IUS(1), Cabrera CP(2)(3)(4), Cipriani V(2), Ross PJ(5), Turner RM(6)(7), 
-Stuckey A(1), Sanghvi S(8), Pasko D(1), Moutsianas L(1), Odhams CA(1), Elgar 
-GS(1), Chan G(1), Giess A(1), Walker S(1), Foulger RE(9), Williams EM(1), 
-Daugherty LC(1), Rueda-Martin A(1), Rhodes DJ(10), Niblock O(11), Pickard A(12), 
-Marks L(12), Leigh SEA(1), Welland MJ(1), Bleda M(1), Snow C(1), Deans 
-Z(12)(13), Murugaesu N(1)(5), Scott RH(1), Barnes MR(2)(3)(4), Brown MA(1)(14), 
-Rendon A(1), Hill S(12), Sosinsky A(1), Caulfield MJ(2)(15), McDonagh 
-EM(16)(17)(18).","Author information:
-(1)Genomics England Ltd, Level 21 One Canada Square, London, United Kingdom.
-(2)Clinical Pharmacology and Precision Medicine, William Harvey Research 
-Institute, Queen Mary University of London, Charterhouse Square, London, United 
-Kingdom.
-(3)NIHR Barts Cardiovascular Biomedical Research Centre, Barts and The London 
-School of Medicine and Dentistry, Queen Mary University of London, London, 
-United Kingdom.
-(4)Centre for Translational Bioinformatics, William Harvey Research Institute, 
-Queen Mary University of London, London, United Kingdom.
-(5)Guy's & St Thomas' NHS Foundation Trust, London, United Kingdom.
-(6)Wolfson Centre for Personalised Medicine, Institute of Systems, Molecular and 
-Integrative Biology, University of Liverpool, Liverpool, United Kingdom.
-(7)GSK, Stevenage, Hertfordshire, United Kingdom.
-(8)Integrating Pharmacy & Medicines Optimisation Team, NHS North Central London 
-Integrated Care System, UCLH NHS Foundation Trust, London.
-(9)SciBite Limited, BioData Innovation Centre, Wellcome Genome Campus, Hinxton, 
-UK.
-(10)BenevolentAI, London, United Kingdom.
-(11)Cambridge Genomics Laboratory, United Kingdom.
-(12)NHS England and NHS Improvement, London, United Kingdom.
-(13)GenQA, Laboratory Medicine, NHS Lothian NINE, Edinburgh, United Kingdom.
-(14)Department of Medical and Molecular Genetics, Faculty of Life Sciences and 
-Medicine, King's College London, London, United Kingdom.
-(15)Faculty of Medicine and Dentistry, VP Health Office, Queen Mary University 
-of London, London, United Kingdom.
-(16)Open Targets, Wellcome Genome Campus, Hinxton, United Kingdom.
-(17)European Molecular Biology Laboratory, European Bioinformatics Institute 
-(EMBL-EBI), Wellcome Genome Campus, Hinxton, United Kingdom.
-(18)Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, United Kingdom.","PURPOSE: As part of the 100,000 Genomes Project, we set out to assess the 
-potential viability and clinical impact of reporting genetic variants associated 
-with drug-induced toxicity for patients with cancer recruited for whole-genome 
-sequencing (WGS) as part of a genomic medicine service.
-METHODS: Germline WGS from 76,805 participants was analyzed for pharmacogenetic 
-(PGx) variants in four genes (DPYD, NUDT15, TPMT, UGT1A1) associated with 
-toxicity induced by five drugs used in cancer treatment (capecitabine, 
-fluorouracil, mercaptopurine, thioguanine, irinotecan). Linking genomic data 
-with prescribing and hospital incidence records, a phenome-wide association 
-study (PheWAS) was performed to identify whether phenotypes indicative of 
-adverse drug reactions (ADRs) were enriched in drug-exposed individuals with the 
-relevant PGx variants. In a subset of 7,081 patients with cancer, DPYD variants 
-were reported back to clinicians and outcomes were collected.
-RESULTS: We identified clinically relevant PGx variants across the four genes in 
-62.7% of participants in our cohort. Extending this to annual prescription 
-numbers in England for the drugs affected by these PGx variants, approximately 
-14,540 patients per year could potentially benefit from a reduced dose or 
-alternative drug to reduce the risk of ADRs. Validating PGx associations in a 
-real-world data set, we found a significant association between PGx variants in 
-DPYD and toxicity-related phenotypes in patients treated with capecitabine or 
-fluorouracil. Reported DPYD variants were deemed informative for clinical 
-decision making in a majority of cases.
-CONCLUSION: Reporting PGx variants from germline WGS relevant to patients with 
-cancer alongside primary findings related to their cancer can be clinically 
-informative, informing prescribing to reduce the risk of ADRs. Extending the 
-range of actionable variants to those found in patients of non-European ancestry 
-is important and will extend the potential clinical impact.","DOI: 10.1200/JCO.23.02761
-PMID: 39481076"
-"2. JCO Glob Oncol. 2024 Oct;10:e2400097. doi: 10.1200/GO.24.00097. Epub 2024 Oct 
-31.","Uptake of Risk-Reducing Surgeries in an International Real-World Cohort of 
-Hispanic Women.","Chavarri-Guerra Y(1), Ferrigno-Guajardo A(2), Villarreal-Garza C(3), 
-Martinez-Cannon BA(1), Abugattas-Saba J(4), Fontaine AC(5), Horcasitas DJ(5), 
-Mora-Alferez P(4), Unzeitig GW(6), Brown S(7), Mohar-Betancourt A(8), Nehoray 
-B(9), Del Toro-Valero A(10), Daneri-Navarro A(11), Ganschow P(12), Komenaka 
-I(13), Rodriguez Y(14), Gutierrez Seymour G(15), Valdez L(8), Blazer KR(9), 
-Ellis S(16), Weitzel JN(16)(17).","Author information:
-(1)Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, Mexico 
-City, Mexico.
-(2)Department of Medicine, Yale University School of Medicine, New Haven, CT.
-(3)Centro de Cáncer de Mama, Hospital Zambrano Hellion TecSalud, Tecnológico de 
-Monterrey, Nuevo León, México.
-(4)Instituto Nacional de Enfermedades Neoplásicas, Lima, Peru.
-(5)New Mexico Cancer Center, Albuquerque, NM.
-(6)Laredo Breast Care, Laredo, TX.
-(7)St Joseph's Hospital, Orange, CA.
-(8)Instituto Nacional de Cancerología and Unidad de Investigación Biomédica en 
-Cáncer, Instituto de Investigaciones Biomédicas, UNAM, Mexico City, Mexico.
-(9)City of Hope National Medical Center, Duarte, CA.
-(10)Instituto Jalisciense de Cancerología, Guadalajara, Mexico.
-(11)Universidad de Guadalajara, Guadalajara, Mexico.
-(12)University of Illinois, Chicago, IL.
-(13)Maricopa Integrated Health System, Phoenix, AZ.
-(14)Centro de tratamiento e investigación sobre Cancer Luis Carlos Sarmiento 
-Angulo, Bogota, Colombia.
-(15)California Northstate University, College of Medicine, Elk Grove, CA.
-(16)The University of Kansas Comprehensive Cancer Center, Kansas City, KC.
-(17)Latin American School of Oncology, Sierra Madre, CA.","PURPOSE: Women with pathogenic variants (PVs) in breast cancer (BC) and ovarian 
-cancer (OC) associated genes are candidates for cancer risk-reducing strategies. 
-Limited information is available regarding risk-reducing surgeries (RRS) among 
-Hispanics. The aim of this study was to describe the uptake of RRS in an 
-international real-world experience of Hispanic women referred for genetic 
-cancer risk assessment (GCRA) and to identify factors affecting uptake.
-METHODS: Between July 1997 and December 2019, Hispanic women, living in the 
-United States or in Latin America, enrolled in the Clinical Cancer Genomics 
-Community Research Network registry were prospectively included. Demographic 
-characteristics and data regarding RRS were obtained from chart reviews and 
-patient-reported follow-up questionnaires. Median follow-up was 41 months.
-RESULTS: Among 1,736 Hispanic women referred for GCRA, 27.2% women underwent 
-risk-reducing mastectomy (RRM), 25.5% risk-reducing salpingo-oophorectomy (RRSO) 
-and, 10.7% both surgeries. Among BRCA carriers, rates of RRM and RRSO were 47.6% 
-and 56.7%, respectively. In the multivariate analyses, being a carrier of a BC 
-susceptibility gene (odds ratio [OR], 3.44), personal history of BC (OR, 6.22), 
-living in the US (OR, 3.90), age ≤50 years (OR, 1.68) and, family history of BC 
-(OR, 1.56) were associated with a higher likelihood of undergoing RRM. Carrying 
-an OC susceptibility gene (OR, 6.72) was associated with a higher likelihood of 
-undergoing RRSO.
-CONCLUSION: The rate of RRS among Hispanic women is suboptimal. PV carriers, 
-women with personal history of cancer, and those with a family history of cancer 
-were more likely to have RRS, with less uptake outside the US. Understanding 
-personal and systemic factors influencing uptake may enable interventions to 
-increase risk appropriate uptake of RRS.","DOI: 10.1200/GO.24.00097
-PMID: 39481075 [Indexed for MEDLINE]"
-3. Dent Med Probl. 2024 Sep-Oct;61(5):797-801. doi: 10.17219/dmp/191537.,Cardiorespiratory and circadian clock markers in intensive care unit patients.,"Jiménez-Pastor JM(1)(2), Rodríguez-Cortés F(1)(2), López-Soto P(1)(2), 
-López-Coleto L(1)(2), Cruz MME(3)(4).","Author information:
-(1)Department of Nursing, The Maimonides Biomedical Research Institute of 
-Cordoba (IMIBIC), Spain.
-(2)Department of Nursing, Pharmacology and Physiotherapy, University of Cordoba, 
-Spain.
-(3)Sleep Unit, Centro Cardiovascular da Universidade de Lisboa (CCUL@RISE), 
-School of Medicine, Lisbon, Portugal.
-(4)European Sleep Center, Lisbon, Portugal.","BACKGROUND: Biological synchronized rhythmicity is a critical physiological 
-process. The lack of synchronized rhythms, mainly those showing a circadian 
-basis, like sleep, the heart rate (HR) and arterial blood pressure (BP), often 
-leads to several organic challenges, usually associated with adverse outcomes.
-OBJECTIVES: The aim of the study was to investigate whether the intensive care 
-unit (ICU) environment favors clock genes and cardiorespiratory changes.
-MATERIAL AND METHODS: A total of 22 critically ill patients (16 males; 72.73%) 
-with a mean age of 60.82 ±20.07 years and well-established cardiovascular 
-conditions were selected from ICU. Blood samples were obtained, and total RNA 
-was isolated and reverse-transcribed into complementary DNA (cDNA). A 
-quantitative polymerase chain reaction (qPCR) was performed to assess the target 
-gene expression levels. The urinary concentration levels of melatonin (MEL) were 
-assessed. The heart rate, BP (systolic - SBP, diastolic - DBP and mean - MBP) 
-and the oxygen saturation (SpO2) levels were assessed as continuous variables.
-RESULTS: The urinary MEL and Brain and muscle Arnt-like protein-1 (BMAL1) levels 
-were shown to have a non-linear relationship with HR (coefficient (coef): 2.318, 
-p = 0.032; coef: 2.722, p = 0.006, respectively) and SBP (coef: 1.000, p = 
-0.008; coef: 2.000, p = 0.037, respectively), with an explanatory power of up to 
-50.3% and 39.7% of the HR and SBP variability, respectively. Melatonin, but not 
-BMAL1, was also shown to have a non-linear relationship with MBP (coef: 1.000, p 
-= 0.007), with an explanatory power of up to 31.3% regarding the MBP 
-variability. The HR and SBP oscillatory dynamics was shown to be related to 
-changes in the genetic expression of BMAL1 and the urinary MEL concentrations. 
-To a lower degree, MEL also impacted the variation of MBP.
-CONCLUSIONS: Our results suggest that not only are circadian functional matrices 
-crucial for the dynamics of vital parameters in critically ill patients, but 
-also that routinely assessed cardiovascular parameters like HR and BP may 
-constitute important markers for the circadian timing system function. These 
-parameters are easy to assess and have a relevant prognostic value regarding 
-recovery outcomes, as well as the morbidity and mortality rates in ICU.","DOI: 10.17219/dmp/191537
-PMID: 39481046 [Indexed for MEDLINE]"
-"4. ACS Infect Dis. 2024 Oct 31. doi: 10.1021/acsinfecdis.4c00450. Online ahead of
- print.","Biogenesis of Cytochromes c and c(1) in the Electron Transport Chain of Malaria 
-Parasites.","García-Guerrero AE(1), Marvin RG(1), Blackwell AM(1), Sigala PA(1).","Author information:
-(1)Department of Biochemistry, University of Utah School of Medicine, Salt Lake 
-City, Utah 84112, United States.","Plasmodium malaria parasites retain an essential mitochondrional electron 
-transport chain (ETC) that is critical for growth within humans and mosquitoes 
-and is a key antimalarial drug target. ETC function requires cytochromes c and 
-c1, which are unusual among heme proteins due to their covalent binding to heme 
-via conserved CXXCH sequence motifs. Heme attachment to these proteins in most 
-eukaryotes requires the mitochondrial enzyme holocytochrome c synthase (HCCS) 
-that binds heme and the apo cytochrome to facilitate the biogenesis of the 
-mature cytochrome c or c1. Although humans encode a single bifunctional HCCS 
-that attaches heme to both proteins, Plasmodium parasites are like yeast and 
-encode two separate HCCS homologues thought to be specific for heme attachment 
-to cyt c (HCCS) or cyt c1 (HCC1S). To test the function and specificity of 
-Plasmodium falciparum HCCS and HCC1S, we used CRISPR/Cas9 to tag both genes for 
-conditional expression. HCC1S knockdown selectively impaired cyt c1 biogenesis 
-and caused lethal ETC dysfunction that was not reversed by the overexpression of 
-HCCS. Knockdown of HCCS caused a more modest growth defect but strongly 
-sensitized parasites to mitochondrial depolarization by proguanil, revealing key 
-defects in ETC function. These results and prior heterologous studies in 
-Escherichia coli of cyt c hemylation by P. falciparum HCCS and HCC1S strongly 
-suggest that both homologues are essential for mitochondrial ETC function and 
-have distinct specificities for the biogenesis of cyt c and c1, respectively, in 
-parasites. This study lays a foundation to develop novel strategies to 
-selectively block ETC function in malaria parasites.","DOI: 10.1021/acsinfecdis.4c00450
-PMID: 39481007"
-"5. Science. 2024 Nov;386(6721):551-560. doi: 10.1126/science.adn8105. Epub 2024
-Oct  31.","Transcriptome-wide splicing network reveals specialized regulatory functions of 
-the core spliceosome.","Rogalska ME(1), Mancini E(#)(1), Bonnal S(#)(1), Gohr A(1), Dunyak BM(2), Arecco 
-N(1), Smith PG(2), Vaillancourt FH(2), Valcárcel J(1)(3)(4).","Author information:
-(1)Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and 
-Technology, Barcelona, Spain.
-(2)Remix Therapeutics, Watertown, MA, USA.
-(3)Universitat Pompeu Fabra (UPF), Barcelona, Spain.
-(4)Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain.
-(#)Contributed equally","The spliceosome is the complex molecular machinery that sequentially assembles 
-on eukaryotic messenger RNA precursors to remove introns (pre-mRNA splicing), a 
-physiologically regulated process altered in numerous pathologies. We report 
-transcriptome-wide analyses upon systematic knock down of 305 spliceosome 
-components and regulators in human cancer cells and the reconstruction of 
-functional splicing factor networks that govern different classes of alternative 
-splicing decisions. The results disentangle intricate circuits of splicing 
-factor cross-regulation, reveal that the precise architecture of late-assembling 
-U4/U6.U5 tri-small nuclear ribonucleoprotein (snRNP) complexes regulates splice 
-site pairing, and discover an unprecedented division of labor among protein 
-components of U1 snRNP for regulating exon definition and alternative 5' splice 
-site selection. Thus, we provide a resource to explore physiological and 
-pathological mechanisms of splicing regulation.","DOI: 10.1126/science.adn8105
-PMID: 39480945 [Indexed for MEDLINE]"
-"6. PLoS One. 2024 Oct 31;19(10):e0310787. doi: 10.1371/journal.pone.0310787. 
-eCollection 2024.","Cooling lactating sows exposed to early summer heat wave alters circadian 
-patterns of behavior and rhythms of respiration, rectal temperature, and saliva 
-melatonin.","Ogundare W(1), Teeple K(2), Fisher E(2), Davis C(2), Reis LG(2), Jannasch A(3), 
-Beckett LM(2), Schinckel A(2), Minor R(1), Casey T(2).","Author information:
-(1)Department of Animal Sciences, North Carolina Agricultural and Technical 
-State University, Greensboro, North Carolina, United States of America.
-(2)Department of Animal Sciences, Purdue University, West Lafayette, Indiana, 
-United States of America.
-(3)Metabolite Profiling Facility, Bindley Bioscience Center, Purdue University, 
-West Lafayette, IN, United States of America.","Heat stress (HS) exerts detrimental effects on animal production, with lactating 
-sows being particularly vulnerable. Understanding the mechanisms involved in HS 
-response could aid in developing effective strategies against the negative 
-impacts on livestock. Recent genome wide association studies identified two core 
-circadian clock genes as potential candidates in mediating HS response. The 
-study aimed to investigate how cooling lactating sows under natural heat stress 
-conditions impacted circadian patterns of respiration rate (RR), rectal 
-temperature (RT), behavior, salivary melatonin and cortisol levels, and diurnal 
-patterns of cytokines in saliva. Mixed parity lactating sows were assigned to 
-one of two treatment groups: electronic cooling pad (C; n = 9) and heat-stressed 
-(H; n = 9). The experiment spanned two 48 h periods of elevated ambient 
-temperatures due to summer heat wave. In the first 48 h period, RR was recorded 
-every 30 min, RT every 60 min, and behaviors (eating, standing, sitting, laying, 
-sleeping, drinking, and nursing) every 5 min. In the second 48 h period, saliva 
-samples were collected every 4 h. Cooling reduced RR and RT and altered 
-circadian patterns (P < 0.05). Cooling did not affect amount of time engaged in 
-any behavior over the 48 h period (P > 0.05), however, daily patterns of eating, 
-standing and laying differed between the treatments (P < 0.05), with altered 
-eating behavior related to RT increment in H sows (P < 0.05). Cooling increased 
-and altered the circadian pattern of salivary melatonin (P < 0.05). Cooling also 
-influenced the diurnal pattern of saliva cytokines. Cooling had no impact on 
-saliva cortisol levels. In conclusion, cooling HS sows impacted circadian 
-rhythms of physiology and behavior, supporting the need for further research to 
-understand if circadian disruption underlies decreased production efficiency of 
-HS animals.","Copyright: © 2024 Ogundare et al. This is an open access article distributed 
-under the terms of the Creative Commons Attribution License, which permits 
-unrestricted use, distribution, and reproduction in any medium, provided the 
-original author and source are credited.","DOI: 10.1371/journal.pone.0310787
-PMID: 39480888 [Indexed for MEDLINE]","Conflict of interest statement: The authors have declared that no competing 
-interests exist."
-"7. PLoS One. 2024 Oct 31;19(10):e0313139. doi: 10.1371/journal.pone.0313139. 
-eCollection 2024.","Elucidating the roles of SOD3 correlated genes and reactive oxygen species in 
-rare human diseases using a bioinformatic-ontology approach.","Stanworth M(1), Zhang SD(1).","Author information:
-(1)Personalised Medicine Centre, School of Medicine, Ulster University, C-TRIC 
-Building, Altnagelvin Hospital, Derry, Londonderry, Northern Ireland.","Superoxide Dismutase 3 (SOD3) scavenges extracellular superoxide giving a 
-hydrogen peroxide metabolite. Both Reactive Oxygen Species diffuse through 
-aquaporins causing oxidative stress and biomolecular damage. SOD3 is 
-differentially expressed in cancer and this research utilises Gene Expression 
-Omnibus data series GSE2109 with 2,158 cancer samples. Genome-wide expression 
-correlation analysis was conducted with SOD3 as the seed gene. Categorical SOD3 
-Pearson Correlation gene lists incrementing in correlation strength by 0.01 from 
-ρ≥|0.34| to ρ≥|0.41| were extracted from the data. Positively and negatively 
-SOD3 correlated genes were separated for each list and checked for significance 
-against disease overlapping genes in the ClinVar and Orphanet databases via 
-Enrichr. Disease causal genes were added to the relevant gene list and checked 
-against Gene Ontology, Phenotype Ontology, and Elsevier Pathways via Enrichr 
-before the significant ontologies containing causal and non-overlapping genes 
-were reviewed with a literature search for possible disease and oxidative stress 
-associations. 12 significant individually discriminated disorders were 
-identified: Autosomal Dominant Cutis Laxa (p = 6.05x10-7), Renal Tubular 
-Dysgenesis of Genetic Origin (p = 6.05x10-7), Lethal Arteriopathy Syndrome due 
-to Fibulin-4 Deficiency (p = 6.54x10-9), EMILIN-1-related Connective Tissue 
-Disease (p = 6.54x10-9), Holt-Oram Syndrome (p = 7.72x10-10), Multisystemic 
-Smooth Muscle Dysfunction Syndrome (p = 9.95x10-15), Distal Hereditary Motor 
-Neuropathy type 2 (p = 4.48x10-7), Congenital Glaucoma (p = 5.24x210-9), 
-Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome (p = 3.77x10-16), 
-Classical-like Ehlers-Danlos Syndrome type 1 (p = 3.77x10-16), Retinoblastoma (p 
-= 1.9x10-8), and Lynch Syndrome (p = 5.04x10-9). 35 novel (21 unique) genes 
-across 12 disorders were identified: ADNP, AOC3, CDC42EP2, CHTOP, CNN1, DES, 
-FOXF1, FXR1, HLTF, KCNMB1, MTF2, MYH11, PLN, PNPLA2, REST, SGCA, SORBS1, SYNPO2, 
-TAGLN, WAPL, and ZMYM4. These genes are proffered as potential biomarkers or 
-therapeutic targets for the corresponding rare diseases discussed.","Copyright: © 2024 Stanworth, Zhang. This is an open access article distributed 
-under the terms of the Creative Commons Attribution License, which permits 
-unrestricted use, distribution, and reproduction in any medium, provided the 
-original author and source are credited.","DOI: 10.1371/journal.pone.0313139
-PMID: 39480826 [Indexed for MEDLINE]","Conflict of interest statement: The authors have declared that no competing 
-interests exist."
-"8. PLoS One. 2024 Oct 31;19(10):e0313039. doi: 10.1371/journal.pone.0313039. 
-eCollection 2024.",A computational model for bacteriophage ϕX174 gene expression.,"Hill AM(1), Ingle TA(1), Wilke CO(1).","Author information:
-(1)Department of Integrative Biology, The University of Texas at Austin, Austin, 
-TX, United States of America.","Bacteriophage ϕX174 has been widely used as a model organism to study 
-fundamental processes in molecular biology. However, several aspects of ϕX174 
-gene regulation are not fully resolved. Here we construct a computational model 
-for ϕX174 and use the model to study gene regulation during the phage infection 
-cycle. We estimate the relative strengths of transcription regulatory elements 
-(promoters and terminators) by fitting the model to transcriptomics data. We 
-show that the specific arrangement of a promoter followed immediately by a 
-terminator, which occurs naturally in the ϕX174 genome, poses a parameter 
-identifiability problem for the model, since the activity of one element can be 
-partially compensated for by the other. We also simulate ϕX174 gene expression 
-with two additional, putative transcription regulatory elements that have been 
-proposed in prior studies. We find that the activities of these putative 
-elements are estimated to be weak, and that variation in ϕX174 transcript 
-abundances can be adequately explained without them. Overall, our work 
-demonstrates that ϕX174 gene regulation is well described by the canonical set 
-of promoters and terminators widely used in the literature.","Copyright: © 2024 Hill et al. This is an open access article distributed under 
-the terms of the Creative Commons Attribution License, which permits 
-unrestricted use, distribution, and reproduction in any medium, provided the 
-original author and source are credited.","DOI: 10.1371/journal.pone.0313039
-PMID: 39480761 [Indexed for MEDLINE]","Conflict of interest statement: The authors have declared that no competing 
-interests exist."
-9. Elife. 2024 Oct 31;12:RP87258. doi: 10.7554/eLife.87258.,"A Pvr-AP-1-Mmp1 signaling pathway is activated in astrocytes upon traumatic 
-brain injury.","Li T(1), Shi W(1), Ho MS(2)(3), Zhang YQ(1).","Author information:
-(1)Key Laboratory of Molecular and Developmental Biology, Institute of Genetics 
-and Developmental Biology, University of Chinese Academy of Sciences, Chinese 
-Academy of Sciences, Beijing, China.
-(2)Institute of Neuroscience, National Yang Ming Chiao Tung University, Taipei, 
-Taiwan.
-(3)Brain Research Center, National Yang Ming Chiao Tung University, Taipei, 
-Taiwan.","Traumatic brain injury (TBI) caused by external mechanical forces is a major 
-health burden worldwide, but the underlying mechanism in glia remains largely 
-unclear. We report herein that Drosophila adults exhibit a defective blood-brain 
-barrier, elevated innate immune responses, and astrocyte swelling upon 
-consecutive strikes with a high-impact trauma device. RNA sequencing (RNA-seq) 
-analysis of these astrocytes revealed upregulated expression of genes encoding 
-PDGF and VEGF receptor-related (Pvr, a receptor tyrosine kinase), adaptor 
-protein complex 1 (AP-1, a transcription factor complex of the c-Jun N-terminal 
-kinase pathway) composed of Jun-related antigen (Jra) and kayak (kay), and 
-matrix metalloproteinase 1 (Mmp1) following TBI. Interestingly, Pvr is both 
-required and sufficient for AP-1 and Mmp1 upregulation, while knockdown of AP-1 
-expression in the background of Pvr overexpression in astrocytes rescued Mmp1 
-upregulation upon TBI, indicating that Pvr acts as the upstream receptor for the 
-downstream AP-1-Mmp1 transduction. Moreover, dynamin-associated endocytosis was 
-found to be an important regulatory step in downregulating Pvr signaling. Our 
-results identify a new Pvr-AP-1-Mmp1 signaling pathway in astrocytes in response 
-to TBI, providing potential targets for developing new therapeutic strategies 
-for TBI.","© 2023, Li et al.","DOI: 10.7554/eLife.87258
-PMID: 39480704 [Indexed for MEDLINE]","Conflict of interest statement: TL, WS, YZ No competing interests declared, MH 
-Reviewing Editor, eLife"
-1. Food Funct. 2024 Oct 31. doi: 10.1039/d4fo04106b. Online ahead of print.,"Gastroprotective effects of Pediococcus acidilactici GKA4 and Lactobacillus 
-brevis GKL93 against ethanol-induced gastric ulcers via regulation of the immune 
-response and gut microbiota in mice.","Huang YE(1), Chen SY(1), Li TJ(2), Tsai YS(2), Chen CC(2), Yen GC(1)(3).","Author information:
-(1)Department of Food Science and Biotechnology, National Chung Hsing 
-University, Taichung 40227, Taiwan. gcyen@nchu.edu.tw.
-(2)Biotech Research Institute, Grape King Bio Ltd, Taoyuan 32542, Taiwan.
-(3)Advanced Plant and Food Crop Biotechnology Center, National Chung Hsing 
-University, Taichung 40227, Taiwan.","Excessive alcohol consumption is a significant pathogenic factor involved in the 
-initiation of noninfectious gastric ulcers. Probiotics based on a specific 
-strain can mitigate gastric damage. However, the protective effects of 
-Pediococcus acidilactici (GKA4) and Lactobacillus brevis (GKL93) against 
-alcohol-induced gastric mucosal damage remain unclear. Hence, the 
-gastroprotective effects of these probiotic strains were investigated in BALB/c 
-mice with gastric mucosa damage induced by absolute alcohol. The results 
-revealed that preadministration of GKA4 and GKL93 increased the expression of 
-antioxidative enzymes (SOD, catalase, GPx), anti-inflammatory cytokines (IL-4 
-and IL-10), and heat shock protein genes (HSP70 and HSP90) and decreased the 
-expression of apoptosis-related genes (Bax, cytochrome c, and caspase-3), MDA, 
-and pro-inflammatory cytokines (IL-1β, IL-6, and TNF-α). Mechanistically, GKA4 
-and GKL93 increased the relative abundance of beneficial flora (Coriobacteriia, 
-Lachnospiraceae_NK4A136_group, Roseburia, f__Oscillospiraceae unclassified, 
-Ruminococcus, Adlercreutzia, and [Eubacterium]_xylanophilum_group) that may 
-promote antioxidant and anti-inflammatory effects via upregulation of the 
-expression of proteins in the Nrf2/HO-1 pathway and downregulation of the 
-expression of proteins in the NF-κB/iNOS/COX-2 signaling pathway, subsequently 
-attenuating gastrointestinal permeability and ulcer symptoms. Furthermore, 
-correlation analysis revealed that [Eubacterium]_xylanophilum_group and 
-f_Oscillospiraceae_unclassified were two significant beneficial flora associated 
-with ethanol-induced gastric ulcers after preadministration of GKA4 and GKL93. 
-In summary, the gastroprotective effects of P. acidilactici GKA4 and L. brevis 
-GKL93 against ethanol-induced gastric ulcers in mice include suppressing 
-oxidative- and inflammatory-related pathways and modulation of the gut 
-microbiota. This novel finding highlights the potential of these probiotics as 
-functional materials in preventing alcohol-induced gastric mucosal damage.","DOI: 10.1039/d4fo04106b
-PMID: 39480654"
-"2. Dokl Biochem Biophys. 2024 Oct 31. doi: 10.1134/S1607672924701199. Online
-ahead  of print.","Transriptome Analysis of Peripheral Blood Monocytes in Chronic Obstructive 
-Pulmonary Disease Patients.","Naumov DE(1), Kotova OO(2), Gassan DA(2), Sugaylo IY(2), Sheludko EG(2), 
-Gorchakova YG(2).","Author information:
-(1)Far Eastern Scientific Center of Physiology and Pathology of Respiration, 
-Blagoveshchensk, Russia. denn1985@bk.ru.
-(2)Far Eastern Scientific Center of Physiology and Pathology of Respiration, 
-Blagoveshchensk, Russia.","It is known that monocytes can make a significant contribution to the 
-development of chronic obstructive pulmonary disease (COPD); however, the 
-features of the transcriptome of these cells associated with the disease remain 
-poorly understood.
-AIM: : The aim of the study was to perform monocyte transcriptome analysis for 
-identification of differentially expressed genes and key disturbances in 
-biological processes in these cells in COPD.
-MATERIALS AND METHODS: . The study included three COPD patients and three 
-smokers without bronchial obstruction. Monocytes were obtained from peripheral 
-blood mononuclear cells using the plastic adhesion method. The cell purity 
-achieved as a result of enrichment was approximately 90% according to flow 
-cytometry data. The isolated RNA samples were purified from genomic DNA and 
-ribosomal RNA. The samples were sequenced on a MGISEQ-200 sequencer in SE50 
-mode. Read mapping and transcript counting were performed in Salmon v1.10.1 
-software; further data processing was carried out in R software environment.
-RESULTS: : As a result of the analysis, 21 upregulated and 29 downregulated 
-genes were found in monocytes from COPD patients. Among the genes with increased 
-expression, the most significant were the noncoding RNAs PKD1P5-LOC105376752 and 
-PKD1P4-NPIPA8, the role of which remains unclear, as well as SETDB2, RNASE6, 
-SERPINE1, and MRC1. Downregulated genes, of which F8A2, ZDHHC19, CXCL9, CXCL10, 
-HBA1, HBB, C2, CFB, CFD, MT1B, MT1G, and TIMP3 were of most interest, showed 
-enrichment in seven gene ontology (GO) terms, including those related to 
-response to lipopolysaccharides, hydrogen peroxide, copper ions, and complement 
-activation.
-CONCLUSIONS: . The data obtained indicate inhibition of monocyte functional 
-activity in COPD patients with a decrease in the ability to provide effective 
-protection against microbial pathogens while weakening self-protection against 
-reactive oxygen species. Upregulation of SERPINE1 and downregulation of TIMP3 
-may significantly contribute to airway remodeling and emphysema development in 
-COPD.","© 2024. Pleiades Publishing, Ltd.","DOI: 10.1134/S1607672924701199
-PMID: 39480635"
-"3. Dokl Biochem Biophys. 2024 Oct 31. doi: 10.1134/S160767292460088X. Online
-ahead  of print.","Effects of Overexpression of Specific Subunits SAYP, BAP170 of the Chromatin 
-Remodeling Complex in Drosophila Melanogaster.","Chmykhalo VK(1), Shidlovskii YV(2), Lebedeva LA(2), Schedl P(3), Giordano E(4).","Author information:
-(1)Institute of Gene Biology, Russian Academy of Sciences, Laboratory of Gene 
-Expression Regulation in Development, Moscow, Russia. vkchmykhalo@icloud.com.
-(2)Institute of Gene Biology, Russian Academy of Sciences, Laboratory of Gene 
-Expression Regulation in Development, Moscow, Russia.
-(3)Princeton University, Princeton, USA.
-(4)Università di Napoli Federico II, Naples, Italy.","The phenotypic manifestations of increased expression of the Bap170 and e(y)3 
-(SAYP) genes in D. melanogaster were analyzed. Using the wing disc model, we 
-show that moderate co-expression of Bap170 and e(y)3 genes in wing discs leads 
-to abnormalities in wing veining. which was probably caused by suppression of 
-EGFR/Ras/MAPK signaling pathways. Strong induction of co-expression of the above 
-genes in wing discs leads to complete suppression of wing development in adults. 
-Ubiquitous co-expression of Bap170 and e(y)3 is lethal at the 1st instar larval 
-stage and leads to the formation of melanotic tumors. The above phenotypes are 
-observed exclusively when Bap170 and e(y)3 are co-expressed. This evidence 
-suggests a robust synergistic effect of the combined action of these genes, 
-which is manifested in the hyperactivity of cell proliferation and 
-differentiation.","© 2024. Pleiades Publishing, Ltd.","DOI: 10.1134/S160767292460088X
-PMID: 39480634"
-"4. Dokl Biochem Biophys. 2024 Oct 31. doi: 10.1134/S1607672924701205. Online
-ahead  of print.","Features of Brain Damage after Neutron Irradiation of the Head and Modification 
-of the Damage by Lactoferrin.","Rodina AV(1), Vysotskaya OV(1), Zhirnik AS(1), Smirnova OD(1), Parfenova AA(1), 
-Strepetov AN(1), Semochkina YP(1), Nesterenko MV(2), Moskaleva EY(3).","Author information:
-(1)National Research Center ""Kurchatov Institute,"", Moscow, Russia.
-(2)Laktobio LLC, Moscow, Russia.
-(3)National Research Center ""Kurchatov Institute,"", Moscow, Russia. 
-moskalevaey@mail.ru.","The purpose of the study was to investigate the effect of γ,n-irradiation of the 
-mouse head on the brain cells damage, behavior, and cognition and to examine the 
-possibility of using lactoferrin (LF) to alleviate radiation-induced 
-impairments.
-MATERIALS AND METHODS: : Mouse heads were irradiated in a beam of neutrons and 
-gamma rays from the IR-8 nuclear reactor. The brain cells of control and 
-irradiated mice were isolated using Percoll. Neurons and resting and activated 
-microglial cells were analyzed using the fluorescently labeled antibodies and 
-flow cytometry. The level of DNA double-strand breaks in neurons was determined 
-by γH2AX histone content. Cytokine gene expression in the hippocampus was 
-studied by RT-PCR. Behavior and cognitive functions were studied using the open 
-field, Morris water maze, and novel object recognition tests. LF was isolated 
-from female colostrum by preparative ion-exchange chromatography and purified by 
-affinity chromatography on heparin-Sepharose.
-RESULTS: : γ,n-Irradiation of the mouse head at a dose of 1.5 Gy led to an 
-increase in the level of DNA double-strand breaks in neurons. Twenty-four hours 
-after irradiation the total number of cells and the number of neurons in the 
-isolated fraction of brain cells decreased, but the number of microglial cells 
-remained unchanged. The number of resting and activated microglia did not change 
-within 3-72 h after γ,n-irradiation. The expression level of the TNFα, IL-1β, 
-and IL-6 genes increased 2 months after γ,n-irradiation of the mouse head at a 
-dose of 1.5 Gy, indicating the development of neuroinflammation. At this time, 
-irradiated mice demonstrated the anxiety-like behavior and impaired spatial and 
-episodic memory. A single i.p. administration of human LF to mice immediately 
-after γ,n-irradiation of the head did not affect the observed radiation-induced 
-disturbances, but decreased the gene expression levels of TNFα, IL-1β, and IL-6 
-pro-inflammatory cytokines and increased the gene expression level of TGFβ 
-anti-inflammatory cytokine in the hippocampus 2 months after radiation exposure. 
-The obtained results indicate a partial decrease in the level of hippocampal 
-neuroinflammation of irradiated animals treated with LF.
-CONCLUSIONS: . γ,n-Irradiation of the mouse head at a dose of 1.5 Gy leads to 
-DNA damage of neurons and the decrease in the number of neurons. Microglia cells 
-are more resistant to such radiation exposure. Late after head-only 
-γ,n-irradiation, mice develop neuroinflammation, which is detected by an 
-increase in the pro-inflammatory cytokine gene expression in the hippocampus and 
-also by anxiety-like behavior and impaired cognitive functions. A single LF 
-administration leads to a partial decrease in the neuroinflammation level, but 
-does not affect the other studied parameters. The optimal dosing regimen of LF 
-remains to be determined to preserve cognitive functions after γ,n-irradiation 
-of the brain.","© 2024. Pleiades Publishing, Ltd.","DOI: 10.1134/S1607672924701205
-PMID: 39480633"
-5. Discov Oncol. 2024 Oct 31;15(1):607. doi: 10.1007/s12672-024-01485-0.,"ATF4/NUPR1 axis promotes cancer cell survival and mediates immunosuppression in 
-clear cell renal cell carcinoma.","Lu Y(#)(1)(2), Chen W(#)(1)(2), Xuan Y(#)(1)(2), Li X(2), Wu S(1)(2), Wang H(1), 
-Guo T(1), Wang C(1), Tian S(1), Li H(1)(2), Lai D(1), Zhao W(1), Huang X(1), 
-Zhao X(3), Wang B(2), Zhang X(2), Li H(4), Huang Y(5), Ma X(6).","Author information:
-(1)People's Liberation Army Postgraduate Medical School, Fuxing Road 28, Haidian 
-District, Beijing, 100853, China.
-(2)State Key Laboratory of Kidney Diseases, Senior Department of Urology, The 
-Third Medical Center of Chinese PLA General Hospital, Yongding Road 69, Haidian 
-District, Beijing, 100039, China.
-(3)School of Medicine, Nankai University, Weijin Road 94, Tianjin, 300071, 
+"1. Aquac Nutr. 2023 Dec 27;2023:2915916. doi: 10.1155/2023/2915916. eCollection 
+2023.","Effects of Dietary Fish Meal Replacement with Composite Mixture of Chicken Meal, 
+Krill Meal, and Plant Proteins on Growth, Physiological Metabolism, and 
+Intestinal Microbiota of Chinese Perch (Siniperca chuatsi).","Ding L(1)(2)(3), Chen J(2), Zhang Y(1), Xiao J(1), Xu X(1), Zhang H(1), Chen 
+Q(2), Zhao Y(4), Chen W(1).","Author information:
+(1)Poyang Lake Fisheries Research Centre of Jiangxi Province, Jiangxi Fisheries 
+Research Institute, Nanchang 330039, China.
+(2)Fujian Tianma Science and Technology Group Co., Ltd., Fuqing 350300, China.
+(3)State Key Laboratory of Freshwater Ecology and Biotechnology, Institute of 
+Hydrobiology, Chinese Academy of Sciences, Wuhan 430072, China.
+(4)Zhejiang University, Hangzhou 310058, China.","This trial aimed to investigate the influence of graded replacing fish meal (D1: 
+0.00%, D2: 27.27%, and D3: 54.55%) with mixed protein ingredients (i.e., chicken 
+meal, krill meal, fermented soybean meal, and soy protein concentrate) on the 
+growth performance, muscle nutritional composition, blood biochemical indices, 
+gut bacterial community, and transcriptome of Chinese perch. Two hundred seventy 
+Chinese perch were divided into three groups (90 per group) and the diet lasted 
+for 56 days. Results showed that the weight gain rate and specific growth rate 
+were significantly lower, and the feed conversion ratio was significantly higher 
+in the D3 group than in fish fed D1 (P < 0.05), with no significant differences 
+between the D1 and D2 groups (P > 0.05). The muscle crude protein content was 
+highest in the D2 group, and the crude fat content was significantly different 
+in the order: D3 > D1 > D2 (P < 0.05). The levels of serum triglycerides (TG) 
+and low-density lipoprotein cholesterol in the D2 group were significantly lower 
+than those in the D1 group (P < 0.05), but there was no significant difference 
+compared to the D3 group (P > 0.05). The microbial community structure changed 
+significantly. Mycoplasma showed the highest abundance in the D1 and D2 groups 
+(P < 0.05), and Cetobacterium peaked in D2 group, and significantly higher than 
+that in D1 group (P < 0.05). Network analysis and cohesion index calculation 
+showed that both network complexity and cohesion peaked in D2 group, and 
+Cetobacterium was highly correlated with the cohesion index (P < 0.05). Further, 
+muscle transcriptome analysis results showed that compared with the control 
+group, differentially expressed genes were clustered (Q < 0.05) in the arginine 
+and proline metabolism pathways in D2 group. Fish in D3 group significantly 
+(Q < 0.05) affected genes involved in KEGG pathways of ribosome, circadian 
+rhythm, thermogenesis, insulin signaling pathway, fatty acid degradation, 
+oxidative phosphorylation, and apoptosis. In conclusion, under the experimental 
+conditions, the replacement of 27.27% of fish meal by the compound protein did 
+not have a negative impact on the growth performance of Chinese perch and could 
+improve muscle quality, lipid metabolism, and the interaction of intestinal 
+microbiota.",Copyright © 2023 Liyun Ding et al.,"DOI: 10.1155/2023/2915916
+PMCID: PMC11221970
+PMID: 39553243","Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could influence the 
+work reported in this paper."
+"2. Am J Cancer Res. 2024 Oct 25;14(10):5000-5010. doi: 10.62347/NSVA5836. 
+eCollection 2024.","Generation and banking of patient-derived glioblastoma organoid and its 
+application in cancer neuroscience.","Zhou L(1)(2)(3), Yang J(4), Wang S(2)(3), Guo P(5), Liao K(2)(3), Shi Z(2)(3), 
+Zhao J(2)(3), Lin S(6), Yang M(7), Cai G(2)(3), Xia Q(1), Ge J(4), Chen J(2)(3), 
+Lin Y(2)(3).","Author information:
+(1)Department of Oncology, State Key Laboratory of Oncogenes and Related Genes, 
+Shanghai Cancer Institute, Renji Hospital, Shanghai Jiaotong University School 
+of Medicine Shanghai 200127, China.
+(2)Department of Radiation Oncology, Ruijin Hospital, Shanghai Jiaotong 
+University School of Medicine Shanghai 200025, China.
+(3)Shanghai Key Laboratory of Proton-Therapy Shanghai 201801, China.
+(4)Department of Neurosurgery, Ren Ji Hospital, Shanghai Jiaotong University 
+School of Medicine Shanghai 200127, China.
+(5)Department of Neurosurgery, The Affiliated Hospital of Qingdao University 
+Qingdao 266000, Shandong, China.
+(6)Department of Neurosurgery, Sanya Central Hospital, The Third People's 
+Hospital of Hainan Province Sanya 572000, Hainan, China.
+(7)Guizhou Medical University Guiyang 550025, Guizhou, China.","Glioblastoma (GBM) is the most common and deadly tumor in the central nervous 
+system. Although much has been done to optimize treatment options for GBM, the 
+clinical prognosis is still very poor. The recent development of organoid models 
+are emerging as cutting-edge tools in GBM research. However, the established and 
+applications of organoid in cancer neuroscience are still elusive. In this 
+study, we successfully established patient-derived GBM organoids (GBOs) with 
+conserved pathological properties of parental GBM. Moreover, GBO-neuron 
+co-culture system was also investigated and interactions between GFP labeled 
+neurons and mCherry labeled GBOs have been observed. We further used an in-situ 
+stereotaxic instrument to implant GBO into the brains of nude mice and 
+established intracranial orthotopic GBM models based on these GBOs. Thus, we 
+proposed a system to generate and bank patient-derived GBOs and verified its 
+application in cancer neuroscience, which might be an important way to 
+illustrate the mechanism of GBM.",AJCR Copyright © 2024.,"DOI: 10.62347/NSVA5836
+PMCID: PMC11560806
+PMID: 39553223",Conflict of interest statement: None.
+"3. Am J Cancer Res. 2024 Oct 15;14(10):4772-4787. doi: 10.62347/MBLD9480. 
+eCollection 2024.",Cell-based assay to detect small molecules restoring levels of let-7 miRNAs.,"Szewczyk S(1), Buckley B(2), Chernov M(2), Wang X(3), Pathak S(4), Yeger 
+H(5)(6), Attwood KM(7), Holtz R(8), Ambrosone CB(9), Higgins MJ(1).","Author information:
+(1)Department of Molecular and Cellular Biology, Roswell Park Comprehensive 
+Cancer Center Buffalo, NY 14263, USA.
+(2)Drug Discovery Core Shared Resource, Roswell Park Comprehensive Cancer Center 
+Buffalo, NY 14263, USA.
+(3)Department of Pharmacology and Therapeutics, Roswell Park Comprehensive 
+Cancer Center Buffalo, NY 14263, USA.
+(4)IQVIA 580 North 4th Street, Columbus, OH 43215, USA.
+(5)Department of Laboratory Medicine and Pathobiology, University of Toronto 
+Toronto, Ontario M5S 1A8, Canada.
+(6)Program in Developmental and Stem Cell Biology, Research Institute, SickKids 
+555 University Avenue, Toronto, Ontario M5G 1X8, Canada.
+(7)Department of Biostatistics and Bioinformatics, Roswell Park Comprehensive 
+Cancer Center Buffalo, NY 14263, USA.
+(8)Department of Cancer Genetics and Genomics, Roswell Park Comprehensive Cancer 
+Center Buffalo, NY 14263, USA.
+(9)Department of Cancer Prevention and Control, Roswell Park Comprehensive 
+Cancer Center Buffalo, NY 14263, USA.","Blockage of let-7 miRNA biogenesis by LIN28, or other mechanisms, results in 
+derepression of let-7 target genes, some of which are oncogenic (e.g., MYCN) 
+potentially contributing to tumor progression and drug resistance. We have 
+developed a cell-based assay to identify small molecules that increase levels of 
+mature functional let-7 miRNAs by inhibiting the function of Lin28B protein or 
+by other means. This system consists of a reporter gene (GFP) regulated by the 
+tTR-KRAB repressor protein which in turn is regulated by processed let-7 miRNAs. 
+Using this system, we screened approximately 4000 small molecules and identified 
+more than a dozen compounds capable of augmenting levels of mature let-7 miRNAs. 
+Among those compounds, Kenpaullone and BIO were shown to increase let-7 miRNA 
+levels with consequent suppression of MYCN protein in neuroblastoma cell lines. 
+This novel strategy provides an additional cell-based assay for candidate cancer 
+drug screening in a high throughput setting and will facilitate the 
+identification of anti-cancer drugs. Moreover, this assay could be used to 
+screen shRNA and CRISPR libraries to identify novel components of the 
+LIN28-let-7 axis which may provide new therapeutic targets.",AJCR Copyright © 2024.,"DOI: 10.62347/MBLD9480
+PMCID: PMC11560832
+PMID: 39553217",Conflict of interest statement: None.
+"4. Am J Cancer Res. 2024 Oct 15;14(10):4686-4707. doi: 10.62347/ONUY8904. 
+eCollection 2024.","Comprehensive analysis of ferroptosis-related genes indicates that TRIM46 is a 
+novel biomarker and promotes the progression of ovarian cancer via modulating 
+ferroptosis and Wnt signaling pathway.","Liu S(1), Xiao C(1), Rong Y(1), Liu M(2), Yang K(3), Tang J(1), Wang Z(4).","Author information:
+(1)Department of Ultrasound, Women and Children's Hospital of Chongqing Medical 
+University No. 120, Longshan Road, Yubei Distinct, Chongqing 401147, China.
+(2)Department of Obstetrics and Gynecology, Chongqing Health Center for Women 
+and Children, Women and Children's Hospital of Chongqing Medical University No. 
+120, Longshan Road, Yubei District, Chongqing 401147, China.
+(3)Pediatric Research Institute, Ministry of Education Key Laboratory of Child 
+Development and Disorders, Children's Hospital of Chongqing Medical University 
+Chongqing 400014, China.
+(4)Chongqing Key Laboratory of Ultrasound Molecular Imaging, Institute of 
+Ultrasound Imaging, The Second Affiliated Hospital, Chongqing Medical University 
+No. 76, Linjiang Road, Yuzhong Distinct, Chongqing 400010, China.","Ovarian cancer (OC) is a common gynecological malignant tumor with poor 
+prognosis. One form of controlled cell death that requires iron is ferroptosis. 
+This study utilized TCGA data analysis to identify differentially expressed 
+genes (DEGs) related to ferroptosis in OC, revealing 2,333 up-regulated and 
+4,073 down-regulated genes. Venn diagrams identified 64 up-regulated and 120 
+down-regulated ferroptosis-related DEGs (FR-DEGs), with 15 showing a significant 
+correlation with overall patient survival. Further analyses explored the 
+expression, mutations, and copy number variations of these 15 FR-DEGs across 
+various cancer types, constructing interaction networks. Molecular subtypes in 
+OC were classified using these 15 FR-DEGs, revealing two subtypes (C1 and C2). 
+Survival analysis identified a risk model for the C1 group based on these genes. 
+Experimental validation highlighted TRIM46 as a key gene, with knockdown 
+inhibiting OC cell proliferation and migration. TRIM46 was also associated with 
+changes in ferroptosis-related markers and demonstrated a close connection with 
+the Wnt signaling pathway, validated through Western blot experiments. Overall, 
+the study provided a comprehensive understanding of the role of DEGs related to 
+ferroptosis in OC, offering valuable insights into disease mechanisms and 
+potential therapeutic targets.",AJCR Copyright © 2024.,"DOI: 10.62347/ONUY8904
+PMCID: PMC11560837
+PMID: 39553213",Conflict of interest statement: None.
+"5. Curr Res Microb Sci. 2024 Oct 21;7:100296. doi: 10.1016/j.crmicr.2024.100296. 
+eCollection 2024.","Diagnosis of extraintestinal pathogenic Escherichia coli pathogenesis in urinary 
+tract infection.","Govindarajan DK(1), Eskeziyaw BM(2), Kandaswamy K(1), Mengistu DY(3).","Author information:
+(1)Research Center for Excellence in Microscopy, Department of Biotechnology, 
+Kumaraguru College of Technology, India.
+(2)Department of Biotechnology, Debre Berhan University, Debre Berhan, Ethiopia.
+(3)Institute of Biotechnology, University of Gondar, Gondar, Ethiopia.","Extra-intestinal pathogenic Escherichia coli (ExPEC) is a virulent pathogen 
+found in humans that causes the majority of urinary tract infections, and other 
+infections such as meningitis and sepsis. ExPEC can enter the urinary tract 
+through two modes: ascending from the bladder or descending from the kidneys. 
+Human anatomical structures generally prevent the transmission of pathogens 
+between the extra-intestinal area, kidneys, bladder, and urinary tract. However, 
+adhesins, a virulence protein of ExPEC, promote the initial bacterial attachment 
+and invasion of host cells. In addition to adhesion proteins, ExPEC contains 
+iron acquisition systems and toxins to evade the host immune system, acquire 
+essential nutrients, and gain antibiotic resistance. The presence of 
+antibiotic-resistant genes makes treating ExPEC in urinary tract infections 
+(UTIs) more complicated. Therefore, screening for the presence of ExPEC among 
+other uropathogens in UTI patients is essential, as it can potentially aid in 
+the effective treatment and mitigation of ExPEC pathogens. Several diagnostic 
+techniques are available for detecting ExPEC, including urine culture, 
+polymerase chain reaction, serological testing, loop-mediated isothermal 
+amplification, and biochemical tests. This review addresses strain-specific 
+diagnostic techniques for screening ExPEC in UTI patients.",© 2024 The Author(s).,"DOI: 10.1016/j.crmicr.2024.100296
+PMCID: PMC11565050
+PMID: 39553200","Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper."
+"6. Cureus. 2024 Oct 17;16(10):e71735. doi: 10.7759/cureus.71735. eCollection 2024
+ Oct.","Identification and Validation of Telomere-Related Gene Signature in 
+Intervertebral Disc Degeneration.","Xie S(1), Xiao H(1), Zhang F(2), Lan Y(1), Luo M(1).","Author information:
+(1)Orthopedics, Panzhihua Central Hospital, Panzhihua, CHN.
+(2)Orthopedics, The First Affiliated Hospital of Kunming Medical University, 
+Kunming, CHN.","This study investigates the role of telomere-related differentially expressed 
+genes (TRDEGs) in intervertebral disc degeneration (IVDD) through comprehensive 
+bioinformatics analyses. Data were sourced from the Gene Expression Omnibus 
+(GEO) with datasets GSE245147 and GSE124272 used for initial identification and 
+validation, respectively. The GSE245147 dataset comprised transcriptional 
+profiles from nucleus pulposus cells of both degenerated and non-degenerated 
+human nucleus pulposus (NP) tissues. Using the limma package, 198TRDEGs were 
+identified by intersecting differentially expressed genes (DEGs) with 
+telomere-related genes (TRGs) from the TelNet database. Functional enrichment 
+analyses using the Database for Annotation, Visualization and Integrated 
+Discovery (DAVID) revealed that TRDEGs are significantly involved in cell 
+division, chromosome segregation, and other mitotic processes. Protein-protein 
+interaction (PPI) networks constructed using the Search Tool for the Retrieval 
+of Interacting Genes/Proteins (STRING) database and visualized with Cytoscape 
+(Cytoscape Consortium, San Diego, CA, USA) identified key hub genes such as 
+CDK1, CCNA2, and AURKB. Pearson correlation and receiver operating 
+characteristic (ROC) analyses highlighted five hub genes (ASPM, BUB1B, CDC20, 
+KIF2C, TTK) with significant predictive value for IVDD. Additionally, 
+mRNA-microRNA (miRNA) interaction analysis using NetworkAnalyst identified key 
+miRNAs interacting with these hub genes. This study provides insights into the 
+molecular mechanisms of IVDD and identifies potential targets for therapeutic 
+intervention.","Copyright © 2024, Xie et al.","DOI: 10.7759/cureus.71735
+PMCID: PMC11568964
+PMID: 39553152","Conflict of interest statement: Human subjects: Consent was obtained or waived 
+by all participants in this study. Animal subjects: All authors have confirmed 
+that this study did not involve animal subjects or tissue. Conflicts of 
+interest: In compliance with the ICMJE uniform disclosure form, all authors 
+declare the following: Payment/services info: All authors have declared that no 
+financial support was received from any organization for the submitted work. 
+Financial relationships: All authors have declared that they have no financial 
+relationships at present or within the previous three years with any 
+organizations that might have an interest in the submitted work. Other 
+relationships: All authors have declared that there are no other relationships 
+or activities that could appear to have influenced the submitted work."
+"7. Cureus. 2024 Oct 17;16(10):e71714. doi: 10.7759/cureus.71714. eCollection 2024
+ Oct.","DAPK-1 as a Potential Early Marker for Malignant Transformation Risk of Oral 
+Lichen Planus.","Papadopoulos P(1), Zisis V(1), Andreadis D(1), Poulopoulos K(1), Parlitsis D(1), 
+Paraskevopoulos K(2), Anastasiadou PA(1), Anagnostou E(1), Vahtsevanos K(3), 
+Poulopoulos A(1).","Author information:
+(1)Oral Medicine and Pathology, Aristotle University of Thessaloniki, 
+Thessaloniki, GRC.
+(2)Oral and Maxillofacial Surgery, Papanikolaou Hospital, Aristotle University 
+of Thessaloniki, Thessaloniki, GRC.
+(3)Oral and Maxillofacial Surgery, Aristotle University of Thessaloniki, 
+Thessaloniki, GRC.","Introduction Oral lichen planus (OLP) comprises a chronic inflammatory 
+autoimmune disease observed in the oral cavity. It most commonly manifests as 
+white papules arranged confluently, drawing a picture of white lines in the form 
+of a network (reticular form). It may emerge in other forms as well. In our 
+study, the erosive form presents the most clinical interest. Among the 
+biomarkers that participate in the tumorigenesis process, DAPK-1 seems 
+promising, rendering its study necessary. This study focuses on the 
+investigation of the presence of the DAPK-1 using immunohistochemistry in OLP 
+compared to oral squamous cell carcinoma (OSCC), oral leukoplakia (OL), a 
+well-established oral potentially malignant disorder, and normal oral epithelium 
+to evaluate its possible role as an early predictor of the possibility of 
+malignant transformation risk of OLP lesions. Methods To monitor the expression 
+profile of the tumor suppressor protein DAPK-1, an immunohistochemical detection 
+took place in 18 samples of OLP (reticular and erosive type), in 22 OSCC samples 
+of all degrees of differentiation, in 30 OL samples of all degrees of dysplasia, 
+and five normal tissue samples used as the control group. To complete the above 
+procedure, immunohistochemistry was used in a semiquantative manner. The 
+paraffin-embedded tissue samples were selected from the archives of the 
+Department of Oral Medicine/Pathology, School of Dentistry, Aristotle University 
+of Thessaloniki, Greece, from biopsies performed in this department as well as 
+from St. Lukas Hospital of Thessaloniki, Greece, between 2014 and 2019. The 
+study was conducted per the Research and Ethics Committee guidelines of 
+Aristotle University, School of Dentistry, and the Helsinki II declaration 
+(protocol number 29/21.11.2018).  Results The statistical analysis showed that 
+there was no statistically significant difference in DAPK-1 staining between 
+normal tissues and OLP (p=0.588, independent-samples Kruskal-Wallis test). On 
+the other hand, there was a statistically significant difference between OSCCs 
+and OLPs (p<0,001, independent-samples Kruskal-Wallis test), with the extent of 
+expression of DAPK-1 being greater in OLP than in OSCC. In addition, there was a 
+statistical difference in DAPK-1 expression between OLPs and OLs (p=0,001, 
+independent-samples Kruskal-Wallis test), with DAPK-1 being expressed more in 
+OLP than in OL. Conclusion The DAPK-1, as a pro-inflammatory with its role as a 
+tumor suppressor factor, was highly expressed in OLP, both reticular and 
+erosive. The relatively milder expression of DAPK-1 in OL means that, between 
+the two disorders, OLP is less likely to progress to oral cancer. On the other 
+hand, OLP could also offer the background for further investigation of a 
+possible correlation between methylation (immunohistochemical expression of 
+proteins, deriving from potentially DNA-methylated genes) and the development of 
+inflammation. It appears that DNA methylation is important in the regulation of 
+inflammatory genes. Conversely, inflammation may regulate the DNA methylation of 
+many genes involved in carcinogenesis and thus should be taken into account when 
+studying the methylation behavior of genes such as DAPK-1 in pathologies 
+characterized by a sparse inflammatory infiltrate.","Copyright © 2024, Papadopoulos et al.","DOI: 10.7759/cureus.71714
+PMCID: PMC11568832
+PMID: 39553125","Conflict of interest statement: Human subjects: Consent was obtained or waived 
+by all participants in this study. Ethics Committee of the School of Dentistry, 
+Aristotle University of Thessaloniki issued approval 29/21.11.2018. Animal 
+subjects: All authors have confirmed that this study did not involve animal 
+subjects or tissue. Conflicts of interest: In compliance with the ICMJE uniform 
+disclosure form, all authors declare the following: Payment/services info: All 
+authors have declared that no financial support was received from any 
+organization for the submitted work. Financial relationships: All authors have 
+declared that they have no financial relationships at present or within the 
+previous three years with any organizations that might have an interest in the 
+submitted work. Other relationships: All authors have declared that there are no 
+other relationships or activities that could appear to have influenced the 
+submitted work."
+"8. Cureus. 2024 Oct 17;16(10):e71697. doi: 10.7759/cureus.71697. eCollection 2024
+ Oct.","Revolutionizing Tuberculosis Management With Clustered Regularly Interspaced 
+Short Palindromic Repeats (CRISPR)-Cas Technology: A Comprehensive Literature 
+Review.","Shetty A(1), Kwas H(2), Rajhi H(3), Rangareddy H(4), Fryer J(5).","Author information:
+(1)Community Medicine, Father Muller Medical College, Mangalore, IND.
+(2)Pulmonology, University of Sfax, Faculty of Medicine of Sfax, Gabès 
+University Hospital, Gabès, TUN.
+(3)Analysis Laboratory Research, University Hospital of Gabès, Gabès, TUN.
+(4)Biochemistry, Haveri Institute of Medical Sciences, Haveri, IND.
+(5)Internal Medicine, Meditrial, KwaZulu-Natal, ZAF.","Clustered regularly interspaced short palindromic repeats (CRISPR)-Cas systems 
+have gained attention for their revolutionary potential in tuberculosis (TB) 
+management, providing a novel approach to both diagnostics and treatment. This 
+technology, renowned for its ability to accurately target and modify genetic 
+material, offers a promising solution to the limitations of current TB 
+diagnostic methods, which often rely on time-consuming culture techniques or 
+polymerase chain reaction (PCR)-based assays. One of the key advantages of 
+CRISPR-Cas systems is their high specificity and sensitivity, making them 
+well-suited for detecting Mycobacterium tuberculosis, even in low-bacterial-load 
+samples. Techniques such as CRISPR-Cas12 and Cas13 have been employed for rapid 
+detection, utilizing their trans-cleavage activity to produce a fluorescent 
+signal upon recognition of the TB genome. Furthermore, these methods often use 
+isothermal amplification techniques like recombinase polymerase amplification 
+(RPA) or loop-mediated isothermal amplification (LAMP), which require less 
+equipment compared to traditional PCR. Beyond diagnostics, CRISPR-Cas 
+technologies show promise in studying TB resistance mechanisms and potentially 
+treating drug-resistant strains. Genome-editing capabilities enable researchers 
+to manipulate the M. tuberculosis genome, investigating genes linked to 
+virulence or antibiotic resistance. Although challenges such as the development 
+of multiplexed CRISPR assays for detecting multiple mutations simultaneously 
+remain, advancements continue to improve the technology's practicality for 
+clinical use. Incorporating CRISPR into TB management could enhance early 
+detection, inform personalized treatment, and potentially contribute to 
+developing more effective therapies, especially in regions where TB remains a 
+significant public health threat.","Copyright © 2024, Shetty et al.","DOI: 10.7759/cureus.71697
+PMCID: PMC11568648
+PMID: 39552996","Conflict of interest statement: Conflicts of interest: In compliance with the 
+ICMJE uniform disclosure form, all authors declare the following: 
+Payment/services info: All authors have declared that no financial support was 
+received from any organization for the submitted work. Financial relationships: 
+All authors have declared that they have no financial relationships at present 
+or within the previous three years with any organizations that might have an 
+interest in the submitted work. Other relationships: All authors have declared 
+that there are no other relationships or activities that could appear to have 
+influenced the submitted work."
+"9. J Thorac Dis. 2024 Oct 31;16(10):6496-6515. doi: 10.21037/jtd-24-622. Epub
+2024  Oct 30.","Integrated bioinformatics and machine learning algorithms reveal the unfolded 
+protein response pathways and immune infiltration in acute myocardial 
+infarction.","Bai Y(1), Niu Z(2), Yang Z(3), Sun Y(1), Yan W(1), Wu A(1), Wei C(1).","Author information:
+(1)Department of Anesthesiology, Beijing Chao-Yang Hospital, Capital Medical 
+University, Beijing, China.
+(2)Computer Science and Technology, The Open University of China, Beijing, 
 China.
-(4)State Key Laboratory of Kidney Diseases, Senior Department of Urology, The 
-Third Medical Center of Chinese PLA General Hospital, Yongding Road 69, Haidian 
-District, Beijing, 100039, China. urolancet@126.com.
-(5)State Key Laboratory of Kidney Diseases, Senior Department of Urology, The 
-Third Medical Center of Chinese PLA General Hospital, Yongding Road 69, Haidian 
-District, Beijing, 100039, China. dr.huangyan301@foxmail.com.
-(6)State Key Laboratory of Kidney Diseases, Senior Department of Urology, The 
-Third Medical Center of Chinese PLA General Hospital, Yongding Road 69, Haidian 
-District, Beijing, 100039, China. mxin301@126.com.
-(#)Contributed equally","Cancer cells encounter unavoidable stress during tumor growth. The 
-stress-induced transcription factor, activating transcription factor 4 (ATF4), 
-has been reported to upregulate various adaptive genes involved in salvage 
-pathways to alleviate stress and promote tumor progression. However, this effect 
-is unknown in clear cell renal cell carcinoma (ccRCC). In this study, we found 
-that ATF4 expression was remarkably upregulated in tumor tissues and associated 
-with poor ccRCC outcomes. ATF4 depletion significantly impaired ccRCC cell 
-proliferation, migration, and invasion in vitro and in vivo by inhibiting the 
-AKT/mTOR and epithelial-mesenchymal transition (EMT)-related signaling pathway. 
-RNA sequencing and functional studies identified nuclear protein 1 (NUPR1) as a 
-key downstream target of ATF4 for repressing ferroptosis and promoting ccRCC 
-cell survival. In addition, targeting ATF4 or pharmacological inhibition using 
-NUPR1 inhibitor ZZW115 promoted antitumor immunity in syngeneic graft mouse 
-models, represented by increased infiltration of CD4+ and CD8+ T cells. 
-Furthermore, ZZW115 could improve the response to the PD-1 immune checkpoint 
-blockade. The results demonstrate that the ATF4/NUPR1 signaling axis promotes 
-ccRCC survival and facilitates tumor-mediated immunosuppression, providing a set 
-of potential targets and prognostic indicators for ccRCC patients.",© 2024. The Author(s).,"DOI: 10.1007/s12672-024-01485-0
-PMID: 39480570"
-"6. Naunyn Schmiedebergs Arch Pharmacol. 2024 Oct 21. doi: 
-10.1007/s00210-024-03510-z. Online ahead of print.","Differential uptake of arginine derivatives by the human heteromeric amino acid 
-transporter b(0,+)AT-rBAT (SLC7A9-SLC3A1).","Banjarnahor S(1)(2), Scherpinski LA(1), Keller M(3), König J(1)(4), Maas 
-R(5)(6).","Author information:
-(1)Institute of Experimental and Clinical Pharmacology and Toxicology, 
-Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054, Erlangen, Germany.
-(2)Research Centre for Pharmaceutical Ingredient and Traditional Medicine, 
-Cibinong Science Center, National Research and Innovation Agency (BRIN), 16911, 
-Cibinong, Jawa Barat, Indonesia.
-(3)Institute of Pharmacy, Universität Regensburg, 93040, Regensburg, Germany.
-(4)FAU NeW Research Center New Bioactive Compounds, 
-Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054, Erlangen, Germany.
-(5)Institute of Experimental and Clinical Pharmacology and Toxicology, 
-Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054, Erlangen, Germany. 
-Renke.Maas@fau.de.
-(6)FAU NeW Research Center New Bioactive Compounds, 
-Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054, Erlangen, Germany. 
-Renke.Maas@fau.de.","L-arginine and its (patho-)physiologically active derivatives, L-homoarginine 
-and asymmetric dimethylarginine (ADMA), show significant differences in their 
-renal clearance. The underlying molecular mechanisms remain to be elucidated, 
-but selective tubular transport protein-mediated mechanisms likely play a role. 
-In the present study, we investigate the human heteromeric transporter 
-b0,+AT-rBAT (encoded by the SLC7A9 and SLC3A1 genes) as a potential candidate 
-because it is localized in the luminal membrane of human proximal tubule cells 
-and capable of mediating the cellular uptake of amino acids, including 
-L-arginine. Double-transfected Madin-Darby canine kidney (MDCK) cells stably 
-expressing human b0,+AT-rBAT exhibited significant uptake of L-arginine and 
-L-homoarginine, with apparent Km values of 512.6 and 197.0 μM, respectively. On 
-the contrary, ADMA uptake was not saturated up to 4000 μM, with a transport 
-rate > 5 nmol × mg protein-1 × min-1. With an IC50 value of 115.8 μM, L-arginine 
-inhibited L-homoarginine uptake. Conversely, L-arginine only exhibited a partial 
-inhibitory effect on ADMA uptake. Taken together, our data indicate that 
-b0,+AT-rBAT may contribute to the differential renal handling of L-arginine, 
-L-homoarginine, and ADMA.",© 2024. The Author(s).,"DOI: 10.1007/s00210-024-03510-z
-PMID: 39480524"
-"7. JCI Insight. 2024 Oct 31:e182418. doi: 10.1172/jci.insight.182418. Online
-ahead  of print.","Dynamic transcriptome analysis of osteal macrophages identifies distinct subset 
-with senescence features in experimental osteoporosis.","Nishida Y(1), Terkawi MA(1), Matsumae G(1), Yokota S(1), Tokuhiro T(1), Ogawa 
-Y(1), Ishizu H(1), Shiota J(1), Endo T(1), Alhasan H(1), Ebata T(1), Kitahara 
-K(1), Shimizu T(1), Takahashi D(1), Takahata M(1), Kadoya K(1), Iwasaki N(1).","Author information:
-(1)Department of Orthopedic Surgery, Faculty of Medicine and Graduate School o, 
-Hokkaido University, Sapporo, Japan.","Given the potential fundamental function of osteal macrophages in bone 
-pathophysiology, we study here their precise function in experimental 
-osteoporosis. Gene profiling of osteal macrophages from ovariectomized mice 
-demonstrated the upregulation of genes that were involved in oxidative stress, 
-cell senescence and apoptotic process. A scRNA-seq analysis revealed that osteal 
-macrophages were heterogenously clustered into 6 subsets that expressed 
-proliferative, inflammatory, anti-inflammatory and efferocytosis gene 
-signatures. Importantly, postmenopausal mice exhibited a 20-fold increase in 
-subset-3 that showed a typical gene signature of cell senescence and 
-inflammation. These findings suggest that the decreased production of estrogen 
-due to postmenopause altered the osteal macrophages subsets, resulting in a 
-shift toward cell senescence and inflammatory conditions in the bone 
-microenvironment. Furthermore, adoptive macrophage transfer onto calvarial bone 
-was performed and mice that received oxidative-stressed macrophages exhibited 
-greater osteolytic lesions than control macrophages, suggesting the role of 
-these cells in development of inflammaging in bone microenvironment. 
-Consistently, depletion of senescent cells and oxidative-stressed macrophages 
-subset alleviated the excessive bone loss in postmenopausal mice. Our data 
-provided a new insight into the pathogenesis of osteoporosis and sheds light on 
-a new therapeutic approach for the treatment/prevention of postmenopausal 
-osteoporosis.","DOI: 10.1172/jci.insight.182418
-PMID: 39480497"
-"8. J Clin Invest. 2024 Oct 31:e170953. doi: 10.1172/JCI170953. Online ahead of 
-print.","Breast cancers that disseminate to bone marrow acquire aggressive phenotypes 
-through CX43-related tumor-stroma tunnels.","Sinha S(1), Callow BW(2), Farfel AP(2), Roy S(1), Chen S(2), Masotti M(3), 
-Rajendran S(2), Buschhaus JM(2), Espinoza CR(1), Luker KE(2), Ghosh P(1), Luker 
-GD(2).","Author information:
-(1)Department of Cellular and Molecular Medicine, School of Medicine, UCSD, La 
-Jolla, United States of America.
-(2)Center for Molecular Imaging, Department of Radiology, University of 
-Michigan, Ann Arbor, United States of America.
-(3)Biostatistics, School of Public Health, University of Michigan, Ann Arbor, 
-United States of America.","Estrogen receptor-positive (ER+) breast cancer commonly disseminates to bone 
-marrow, where interactions with mesenchymal stromal cells (MSCs) shape disease 
-trajectory. We modeled these interactions with tumor-MSC co-cultures and used an 
-integrated transcriptome-proteome-network-analyses workflow to identify a 
-comprehensive catalog of contact-induced changes. Conditioned media from MSCs 
-failed to recapitulate genes and proteins, some borrowed and others 
-tumor-intrinsic, induced in cancer cells by direct contact. Protein-protein 
-interaction networks revealed the rich connectome between 'borrowed' and 
-'intrinsic' components. Bioinformatics prioritized one of the 'borrowed' 
-components, CCDC88A/GIV, a multi-modular metastasis-related protein that has 
-recently been implicated in driving a hallmark of cancer, growth signaling 
-autonomy. MSCs transferred GIV protein to ER+ breast cancer cells (that lack 
-GIV) through tunnelling nanotubes via connexin (Cx)43-facilitated intercellular 
-transport. Reinstating GIV alone in GIV-negative breast cancer cells reproduced 
-approximately 20% of both the 'borrowed' and the 'intrinsic' gene induction 
-patterns from contact co-cultures; conferred resistance to anti-estrogen drugs; 
-and enhanced tumor dissemination. Findings provide a multiomic insight into 
-MSC→tumor cell intercellular transport and validate how transport of one such 
-candidate, GIV, from the haves (MSCs) to have-nots (ER+ breast cancer) 
-orchestrates aggressive disease states.","DOI: 10.1172/JCI170953
-PMID: 39480488"
-"9. J Pers Soc Psychol. 2024 Oct 31. doi: 10.1037/pspp0000516. Online ahead of 
-print.","Genetic and environmental contributions to adult attachment styles: Evidence 
-from the Minnesota Twin Registry.","Dugan KA(1), Kunkel JJ(2), Fraley RC(3), Briley DA(3), McGue M(4), Krueger 
-RF(4), Roisman GI(2).","Author information:
-(1)Department of Psychological Sciences, University of Missouri-Columbia.
-(2)Institute of Child Development, University of Minnesota, Twin Cities.
-(3)Department of Psychology, University of Illinois Urbana-Champaign.
-(4)Department of Psychology, University of Minnesota, Twin Cities.","Attachment theory, as originally outlined by Bowlby (1973, 1980, 1969/1982), 
-suggests that the ways people think, feel, and behave in close relationships are 
-shaped by the dynamic interplay between their genes and their social 
-environment. Research on adult attachment, however, has largely focused on the 
-latter, providing only a partial picture of how attachment styles emerge and 
-develop throughout life. The present research leveraged data from the Minnesota 
-Twin Registry, a large sample of older adult twins (N = 1,377 twins; 678 pairs; 
-Mage = 70.40 years, SD = 5.42), to examine the relative contributions of genetic 
-and environmental factors to adult attachment styles. Participants reported on 
-both their general attachment styles and relationship-specific attachments to 
-their mothers, fathers, partners, and best friends. The results suggest that 
-attachment styles are partly heritable (∼36%) and partly attributable to 
-environmental factors that are not shared between twins (∼64%). Heritability 
-estimates were somewhat higher for parent-specific attachment styles (∼51%), 
-whereas nonshared environmental factors accounted for larger proportions of the 
-variance in partner- and best friend-specific attachment styles. Using 
-multivariate biometric models, we also examined the genetic and environmental 
-factors underlying the covariation among people's relationship-specific 
-attachment styles. The findings indicate that the similarities among people's 
-avoidant tendencies in different relationships can be explained by a single, 
-higher order latent factor (e.g., global avoidance). In contrast, the genetic 
-and environmental factors underlying attachment anxiety appear to be more 
-differentiated across specific close relationships. (PsycInfo Database Record 
-(c) 2024 APA, all rights reserved).","DOI: 10.1037/pspp0000516
-PMID: 39480283"
-"10. Int J Gynecol Pathol. 2024 Oct 31. doi: 10.1097/PGP.0000000000001068. Online 
-ahead of print.","Molecular and Clinicopathologic Characterization of HER2-overexpressed Squamous 
-Cell Carcinoma of the Cervix.","Mendoza RP(1), Ramineni M(1), Doytcheva K(2), Gabutan EC(3), Gupta R(3), Miller 
-C(1), Choi D(1), Vemuri A(2), Briese R(2), Brannon L(2), Shahid A(2), Petras 
-K(2), Ud Dean M(2), Fitzpatrick C(2), Segal J(2), Wang P(2), Lastra RR(2).","Author information:
-(1)Department of Pathology, University of Rochester Medical Center, Rochester.
-(2)Department of Pathology, University of Chicago Medical Center, Chicago, 
-Illinois.
-(3)Department of Pathology, State University of New York Downstate Health 
-Sciences University, Brooklyn, New York.","HER2 amplification in cervical cancer has been associated with worse clinical 
-prognosis and a potential favorable response to HER2 inhibitors. 
-Immunohistochemistry for the HER2 receptor is a universally accepted surrogate 
-test for HER2 amplification, but no standardized scoring system currently exists 
-for cervical carcinomas. In this study, we investigated HER2 overexpression in 
-cervical squamous cell carcinoma and correlated it with HER2 amplification using 
-fluorescence in situ hybridization (FISH) and molecular methods. Seventy-two 
-cases of human papillomavirus-associated cervical cancer were retrospectively 
-reviewed, and at least 2 representative tumor sections were stained for HER2. 
-HER2 scoring was performed using the 2018 American Society of Clinical 
-Oncology/College of American Pathologist breast cancer criteria, and cases with 
-equivocal (2+) to positive (3+) expression were analyzed for HER2 amplification 
-using FISH and next-generation sequencing. The average patient age was 50 yrs 
-(range: 27-85 yr), with most patients being African American (73.6%) and 
-diagnosed at FIGO stage I (65.3%). Nineteen (26.4%) had equivocal HER2 
-expression and 4 (5.5%) showed positive expression. Three of the 4 cases with 
-positive expression had enough tumors for FISH, and all 3 were amplified. Three 
-cases with equivocal expression showed HER2 polysomy on FISH, and none showed 
-HER2 amplification. Late clinical stage, high tumor grade, and regional lymph 
-node metastasis were significantly correlated with HER2 overexpression and HER2 
-amplification. Next-generation sequencing of the 3 HER2-amplified tumors showed 
-amplification of various genes, including CD274, JAK2, BIRC3, and ERBB2, and a 
-PIK3CA missense mutation. In summary, HER2 immunohistochemistry is a reliable 
-predictive marker of HER2 amplification in cervical cancer.",Copyright © 2024 by the International Society of Gynecological Pathologists.,"DOI: 10.1097/PGP.0000000000001068
-PMID: 39480104",Conflict of interest statement: The authors declare no conflict of interest.
+(3)Department of Endocrinology, South China Hospital of Shenzhen University, 
+Shenzhen, China.","BACKGROUND: The unfolded protein response (UPR) is a critical biological process 
+related to a variety of physiological functions and cardiac disease. However, 
+the role of UPR-related genes in acute myocardial infarction (AMI) has not been 
+well characterized. Therefore, this study aims to elucidate the mechanism and 
+role of the UPR in the context of AMI.
+METHODS: Gene expression profiles related to AMI and UPR pathway were downloaded 
+from the Gene Expression Omnibus database and PathCards database, respectively. 
+Differentially expressed genes (DEGs) were identified and then functionally 
+annotated. The random forest (RF) and least absolute shrinkage and selection 
+operator (LASSO) regression analysis were conducted to identify potential 
+diagnostic UPR-AMI biomarkers. Furthermore, the results were validated by using 
+external data sets, and discriminability was measured by the area under the 
+curve (AUC). A nomogram based on the feature genes was developed to predict the 
+AMI-risk rate. Then we utilized two algorithms, CIBERSORT and MCPcounter, to 
+investigate the relationship between the key genes and immune microenvironment. 
+Additionally, we performed uniform clustering of AMI samples based on the 
+expression of UPR pathway-related genes. The weighted gene co-expression network 
+analysis was conducted to identify the key modules in various clusters, 
+enrichment analysis was performed for the genes existing in different modules.
+RESULTS: A total of 14 DEGs related to the UPR pathway were identified. Among 
+the 14 DEGs, CEBPB, ATF3, EIF2S3, and TSPYL2 were subsequently identified as 
+biomarkers by the LASSO and RF algorithms. A diagnostic model was constructed 
+with these four genes, and the AUC was 0.939. The calibration curves, receiver 
+operating characteristic (ROC) curves, and the decision curve analysis of the 
+nomogram exhibited good performance. Furthermore, immune cell infiltration 
+analysis revealed that four feature genes were linked with the infiltration of 
+immune cells such as neutrophils. The cluster analysis of the AMI samples 
+identified two distinct clusters, each with differential expression of genes 
+related to the UPR pathway, immune cell infiltration, and inflammatory cytokine 
+secretion. Weighted gene coexpression network analysis and enrichment analysis 
+showed that both clusters were associated with the UPR.
+CONCLUSIONS: Our study highlights the importance of the UPR pathway in the 
+pathogenesis of myocardial infarction, and identifies four genes CEBPB, ATF3, 
+EIF2S3, and TSPYL2 as diagnostic biomarkers for AMI, providing new ideas for the 
+clinical diagnosis and treatment of AMI.",2024 AME Publishing Company. All rights reserved.,"DOI: 10.21037/jtd-24-622
+PMCID: PMC11565340
+PMID: 39552895","Conflict of interest statement: Conflicts of Interest: All authors have 
+completed the ICMJE uniform disclosure form (available at 
+https://jtd.amegroups.com/article/view/10.21037/jtd-24-622/coif). The authors 
+have no conflicts of interest to declare."
+"10. J Thorac Dis. 2024 Oct 31;16(10):6955-6968. doi: 10.21037/jtd-24-1366. Epub
+2024  Oct 28.",CLCA1 and BPIFB1 are potential novel biomarkers for asthma: an iTRAQ analysis.,"Chai T(1), Liu Y(1), Zeng Y(1), Kang SY(2), Li J(1).","Author information:
+(1)Key Laboratory of Shenzhen Respiratory Disease, Shenzhen Institute of 
+Respiratory Disease, Shenzhen People's Hospital (The First Affiliated Hospital 
+of Southern University of Science and Technology, The Second Clinical Medical 
+College of Jinan University), Shenzhen, China.
+(2)Division of Pulmonology and Allergy, Department of Internal Medicine, Gachon 
+University Gil Medical Center, Incheon, Korea.","BACKGROUND: Asthma is a chronic respiratory disease that affects billions of 
+people. Due to its diverse phenotypes and endotypes with distinct 
+pathophysiological mechanisms, significant challenges arise in its clinical 
+diagnosis and treatment. The discovery of potential biomarkers of asthma has 
+significant implications for its clinical classification and precise treatment. 
+The purpose of this study is to identify potential biomarkers for asthma, 
+providing a foundation for its diagnosis and treatment.
+METHODS: We constructed an ovalbumin (OVA)-sensitized asthmatic mice model and 
+used isobaric Tags for Relative and Absolute Quantitation (iTRAQ) labeling and 
+liquid chromatography-mass spectrometry/mass spectrometry (LC-MS/MS) technology 
+to identify differentially expressed proteins (DEPs) in lung tissues. We then 
+performed enrichment analyses of the DEPs using the Gene Ontology (GO) and Kyoto 
+Encyclopedia of Genes and Genomes (KEGG) databases, and constructed 
+protein-protein interaction (PPI) networks.
+RESULTS: We identified 242 DEPs in the asthmatic mice model and showed that heat 
+shock protein family A (Hsp70) member 5 (HSPA5) is a central protein in asthma. 
+Consistent with our bioinformatics analysis, our western blot validation 
+confirmed that the protein levels of arginase 1 (ARG1), chitinase-like protein 3 
+(CHIL3), chloride channel accessory 1 (CLCA1), and 
+bactericidal/permeability-increasing protein (BPI) fold-containing family B 
+member 1 (BPIFB1) were significantly increased in asthma group compared to the 
+control group. Thus, we found that CLCA1 and BPIFB1 were the most promising 
+potential biomarkers of asthma.
+CONCLUSIONS: Our iTRAQ analysis and western blot verification of asthmatic mice 
+showed that HSPA5 is a central protein in asthma, and CLCA1 and BPIFB1 are novel 
+potential biomarkers that could play significant roles in the diagnosis and 
+treatment of asthma.",2024 AME Publishing Company. All rights reserved.,"DOI: 10.21037/jtd-24-1366
+PMCID: PMC11565350
+PMID: 39552876","Conflict of interest statement: Conflicts of Interest: All authors have 
+completed the ICMJE uniform disclosure form (available at 
+https://jtd.amegroups.com/article/view/10.21037/jtd-24-1366/coif). The authors 
+have no conflicts of interest to declare."
+"1. J Thorac Dis. 2024 Oct 31;16(10):6936-6954. doi: 10.21037/jtd-24-1201. Epub
+2024  Oct 14.","Gut microbiota and metabolites associated with immunotherapy efficacy in 
+extensive-stage small cell lung cancer: a pilot study.","Sun L(#)(1), Wang X(#)(1), Zhou H(#)(1), Li R(2), Meng M(3), Roviello G(4), Oh 
+B(5), Feng L(1), Yu Z(1), Wang J(1).","Author information:
+(1)Department of Oncology, the Affiliated Hospital of Qingdao University, 
+Qingdao University, Qingdao, China.
+(2)Health Management Center, the Affiliated Hospital of Qingdao University, 
+Qingdao University, Qingdao, China.
+(3)School of Pharmacy, Qingdao University Medical College, Qingdao University, 
+Qingdao, China.
+(4)Department of Health Sciences, University of Florence, Florence, Italy.
+(5)Northern Sydney Cancer Centre, Royal North Shore Hospital, University of 
+Sydney Medical School, Sydney, NSW, Australia.
+(#)Contributed equally","BACKGROUND: The gut microbiota and its associated metabolites play a critical 
+role in shaping the systemic immune response and influencing the efficacy of 
+immunotherapy. In this study, patients with extensive-stage small cell lung 
+cancer (ES-SCLC) were included to explore the correlation between gut microbiota 
+and metabolites and immunotherapy efficacy in patients with ES-SCLC.
+METHODS: Pre- and post-treatment, we collected stool samples from 49 ES-SCLC 
+patients treated with an anti-programmed death-ligand 1 (PD-L1) antibody. We 
+then applied 16S ribosomal RNA (rRNA) sequencing and liquid chromatography-mass 
+spectrometry (LC-MS) non-targeted metabolomics technology. Subsequently, the gut 
+microbiota and metabolites were identified and classified.
+RESULTS: The results showed no statistical difference in gut microbiota alpha 
+and beta diversity between the responder (R) and non-responder (NR) patients at 
+baseline. However, the alpha diversity of the R patients was significantly 
+higher than that of the NR patients after treatment. There were also differences 
+in the microbiome composition at the baseline and post-treatment. Notably, after 
+treatment, Faecalibacterium, Clostridium_sensu_stricto_1, and 
+[Ruminococcus]_torques were enriched in the R group, while Dubosiella, 
+coriobacteriaceae_UCG-002 was enriched in the NR group. The non-targeted 
+metabolomics results also indicated that short-chain fatty acids (SCFAs) were 
+up-regulated in the R group after treatment. More, differential metabolites were 
+enriched in the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways, 
+including the PD-L1 expression and programmed death 1 (PD-1) checkpoint pathway 
+in cancer.
+CONCLUSIONS: These findings are anticipated to provide novel markers for 
+predicting the efficacy of immune checkpoint inhibitors (ICIs) in patients with 
+ES-SCLC, and offer new directions for further research on molecular mechanisms.",2024 AME Publishing Company. All rights reserved.,"DOI: 10.21037/jtd-24-1201
+PMCID: PMC11565349
+PMID: 39552845","Conflict of interest statement: Conflicts of Interest: All authors have 
+completed the ICMJE uniform disclosure form (available at 
+https://jtd.amegroups.com/article/view/10.21037/jtd-24-1201/coif). The authors 
+have no conflicts of interest to declare."
+"2. J Thorac Dis. 2024 Oct 31;16(10):6835-6848. doi: 10.21037/jtd-24-633. Epub
+2024  Oct 28.","Imbalance of intestinal flora activates inflammatory response contributing to 
+acute lung injury.","He Y(#)(1), Wang S(#)(2), Lu H(3), Zhang Q(1), Chen X(1), Yang Y(1), Feng J(1), 
+Chen Y(1).","Author information:
+(1)Department of Pediatrics of Jiangbei Campus, The First Affiliated Hospital of 
+Army Medical University (The 958th Hospital of Chinese People's Liberation 
+Army), Chongqing, China.
+(2)Department of Anesthesiology of Jiangbei Campus, The First Affiliated 
+Hospital of Army Medical University (The 958th Hospital of Chinese People's 
+Liberation Army), Chongqing, China.
+(3)Department of Pediatrics, Chongqing Traditional Chinese Medicine Hospital, 
+Chongqing, China.
+(#)Contributed equally","BACKGROUND: Seawater drowning is a leading cause of accidental injury and death, 
+and the resulting acute lung injury (ALI) is a serious clinical syndrome for 
+which there are no effective treatments. This study aims to investigate the 
+potential mechanism of seawater drowning-induced ALI.
+METHODS: Seawater drowning mouse models were constructed to assess lung injury. 
+The hematoxylin & eosin (H&E) staining and fluorescent terminal deoxynucleotidyl 
+transferase-mediated dUTP nick end labeling (TUNEL) assay were used to observe 
+the pathology of lung tissues and apoptosis, respectively. 16S rRNA and RNA-seq 
+were performed to identify the structure of the intestinal microbes and the gene 
+expression profiles of the lung tissue of the mice, respectively. The expression 
+of cytokines was detected by quantitative real-time polymerase chain reaction 
+(qRT-PCR) and enzyme-linked immunosorbent assay (ELISA), and the activities of 
+superoxide dismutase (SOD) and malondialdehyde (MDA) were detected by assay 
+kits.
+RESULTS: The results showed that seawater drowning aggravated lung injury and 
+accelerated cell apoptosis in mice. Seawater exposure significantly altered the 
+structure of mouse intestinal microbes, especially increasing the abundance of 
+Firmicutes and decreasing that of Bacteroidota. Transcriptional upregulation of 
+inflammatory responses in ALI mice was observed in the lung transcriptome, and 
+differentially expressed genes were mainly enriched in inflammation-related 
+pathways such as cytokine-cytokine receptor interaction, viral protein 
+interaction with cytokine and cytokine receptor, and chemokine signaling 
+pathway, which were further confirmed by microbe-gene association analysis. 
+Furthermore, inflammatory factors were up-regulated, oxidative stress molecule 
+MDA was elevated, and SOD was decreased in the lung tissues of mice, suggesting 
+that the imbalance of intestinal flora activated inflammatory and oxidative 
+stress responses.
+CONCLUSIONS: This study reveals the mechanism that intestinal microflora 
+aggravates ALI by modulating inflammatory signaling pathways, depicting the 
+landscape of the microbial-gene-lung axis and providing new insights into the 
+use of gut flora as a therapeutic strategy for ALI.",2024 AME Publishing Company. All rights reserved.,"DOI: 10.21037/jtd-24-633
+PMCID: PMC11565338
+PMID: 39552844","Conflict of interest statement: Conflicts of Interest: All authors have 
+completed the ICMJE uniform disclosure form (available at 
+https://jtd.amegroups.com/article/view/10.21037/jtd-24-633/coif). The authors 
+have no conflicts of interest to declare."
+"3. Genes Dis. 2024 Feb 3;12(1):101239. doi: 10.1016/j.gendis.2024.101239. 
+eCollection 2025 Jan.","Research progress and the prospect of using single-cell sequencing technology to 
+explore the characteristics of the tumor microenvironment.","Zhang W(1)(2), Zhang X(2), Teng F(3), Yang Q(2), Wang J(2), Sun B(2), Liu J(3), 
+Zhang J(2), Sun X(2), Zhao H(2), Xie Y(4), Liao K(1), Wang X(1).","Author information:
+(1)Department of Clinical Laboratory, The 2nd Affiliated Hospital, Jiangxi 
+Medical College, Nanchang University, Nanchang, Jiangxi 330006, China.
+(2)Queen Mary College, Jiangxi Medical College, Nanchang University, Nanchang, 
+Jiangxi 330006, China.
+(3)School of Public Health, Jiangxi Medical College, Nanchang University, 
+Nanchang, Jiangxi 330006, China.
+(4)The Second Clinical Medical School, Jiangxi Medical College, Nanchang 
+University, Nanchang, Jiangxi 330006, China.","In precision cancer therapy, addressing intra-tumor heterogeneity poses a 
+significant obstacle. Due to the heterogeneity of each cell subtype and between 
+cells within the tumor, the sensitivity and resistance of different patients to 
+targeted drugs, chemotherapy, etc., are inconsistent. Concerning a specific 
+tumor type, many feasible treatments or combinations can be used by specifically 
+targeting the tumor microenvironment. To solve this problem, it is necessary to 
+further study the tumor microenvironment. Single-cell sequencing techniques can 
+dissect distinct tumor cell populations by isolating cells and using statistical 
+computational methods. This technology may assist in the selection of targeted 
+combination therapy, and the obtained cell subset information is crucial for the 
+rational application of targeted therapy. In this review, we summarized the 
+research and application advances of single-cell sequencing technology in the 
+tumor microenvironment, including the most commonly used single-cell genomic and 
+transcriptomic sequencing, and their future development direction was proposed. 
+The application of single-cell sequencing technology has been expanded to 
+include epigenomics, proteomics, metabolomics, and microbiome analysis. The 
+integration of these different omics approaches has significantly advanced the 
+development of single-cell multiomics sequencing technology. This innovative 
+approach holds immense potential for various fields, such as biological research 
+and medical investigations. Finally, we discussed the advantages and 
+disadvantages of using single-cell sequencing to explore the tumor 
+microenvironment.","© 2024 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi 
+Communications Co., Ltd.","DOI: 10.1016/j.gendis.2024.101239
+PMCID: PMC11566696
+PMID: 39552788","Conflict of interest statement: The authors declared no conflict of interests in 
+this study."
+"4. Genes Dis. 2024 Feb 24;12(1):101247. doi: 10.1016/j.gendis.2024.101247. 
+eCollection 2025 Jan.","Development of novel osteoarthritis therapy by targeting AMPK-β-catenin-Runx2 
+signaling.","Zeng D(1)(2)(3), Umar M(2)(3), Zhu Z(4), Pan H(5), Lu WW(3), Xiao G(6), Chen 
+Y(1), Tong L(2), Chen D(2)(3).","Author information:
+(1)Department of Bone and Joint Surgery, The First Affiliated Hospital of 
+Guangxi Medical University, Nanning, Guangxi 530021, China.
+(2)Research Center for Computer-aided Drug Discovery, Shenzhen Institute of 
+Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong 518055, 
+China.
+(3)Faculty of Pharmaceutical Sciences, Shenzhen Institute of Advanced 
+Technology, Shenzhen, Guangdong 518055, China.
+(4)Department of Orthopedic Surgery, The First Affiliated Hospital of Chongqing 
+Medical University, Chongqing 400016, China.
+(5)Shenzhen Healthemes Biotechnology Co., Ltd., Shenzhen, Guangdong 518071, 
+China.
+(6)School of Medicine, Southern University of Science and Technology, Shenzhen, 
+Guangdong 518055, China.","Osteoarthritis (OA) is a debilitating chronic joint disease affecting large 
+populations of patients, especially the elderly. The pathological mechanisms of 
+OA are currently unknown. Multiple risk factors are involved in OA development. 
+Among these risk factors, alterations of mechanical loading in the joint leading 
+to changes in biological signaling pathways have been known as a key event in OA 
+development. The importance of AMPK-β-catenin-Runx2 signaling in the initiation 
+and progression of OA has been recognized in recent years. In this review, we 
+discuss the recent progress in understanding the role of this signaling pathway 
+and the underlying interaction mechanisms during OA development. We also discuss 
+the drug development aiming to target this signaling pathway for OA treatment.","© 2024 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi 
+Communications Co., Ltd.","DOI: 10.1016/j.gendis.2024.101247
+PMCID: PMC11566674
+PMID: 39552787"
+"5. Genes Dis. 2024 Feb 28;12(1):101251. doi: 10.1016/j.gendis.2024.101251. 
+eCollection 2025 Jan.","TNFα-reliant FSP1 up-regulation promotes intervertebral disc degeneration via 
+caspase 3-dependent apoptosis.","Qiu C(1)(2), Cheng L(1)(2)(3), Di D(1)(2), Xiang Z(1)(2), Wang C(1)(2), Li 
+J(1)(2), Xiong Y(1)(2), Li M(2)(4), Liu J(5), Zhou J(6), Liu T(7), Wang X(8), 
+Luo D(9), Wang X(1)(2), Li S(1)(2), Wang H(1)(2), Wang X(1), Zhao Y(1), Liu 
+X(1), Wang L(1).","Author information:
+(1)Department of Orthopaedic Surgery, Qilu Hospital of Shandong University, 
+Jinan, Shandong 250012, China.
+(2)Cheeloo College of Medicine, Shandong University, Jinan, Shandong 250012, 
+China.
+(3)Department of Emergency Medicine, Qilu Hospital of Shandong University, 
+Jinan, Shandong 250012, China.
+(4)Department of Gastroenterology, Qilu Hospital of Shandong University, Jinan, 
+Shandong 250012, China.
+(5)Department of Pediatric Surgery, Qilu Hospital of Shandong University, Jinan, 
+Shandong 250012, China.
+(6)Department of Orthopedics, The Second Xiangya Hospital of Central South 
+University, Changsha, Hunan 410011, China.
+(7)Department of Medical Oncology, National Cancer Center/National Clinical 
+Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences 
+and Peking Union Medical College, Beijing 100021, China.
+(8)Department of Molecular Orthopaedics, National Center for Orthopaedics, 
+Beijing Research Institute of Traumatology and Orthopaedics, Beijing Jishuitan 
+Hospital, Capital Medical University, Beijing 100035, China.
+(9)Department of Oral and Maxillofacial Surgery, The Affiliated Hospital of 
+Qingdao University, Qingdao, Shandong 266003, China.","Intervertebral disc degeneration (IDD) is a common chronic inflammatory 
+degenerative disease that causes lower back pain. However, the underlying 
+mechanisms of IDD remain unclear. Ferroptosis suppressor protein 1 (FSP1) is a 
+newly identified suppressor for ferroptosis. This study aims to investigate the 
+role of FSP1 in IDD. Nucleus pulposus (NP) tissues in humans were collected and 
+NP cells from rats were isolated to detect FSP1 expression pattern. The 
+relationship between FSP1-mediated ferroptosis and apoptosis was identified 
+using FSP1 inhibitor iFSP1. RNA sequencing was utilized to seek downstream 
+molecules and related signaling pathways. Moreover, both exogenous recombinant 
+FSP1 protein and endogenous small interfering RNA were implemented in this study 
+to clarify the role of FSP1 in tumor necrosis factor-alpha (TNFα)-mediated NP 
+cell apoptosis. Ultimately, the underlying mechanisms of FSP1-related signaling 
+pathway in IDD were uncovered both in vitro and in vivo. As a result, FSP1 was 
+up-regulated in human degenerative NP tissues and after TNFα stimulation. FSP1 
+inhibition by iFSP1 fails to trigger ferroptosis in NP cells while inhibiting 
+TNFα-mediated apoptosis. Further experiments demonstrated that FSP1 was closely 
+related to TNFα-reliant caspase 3 activation and mitochondrial damage. However, 
+the exogenous addition of recombinant protein FSP1 does not induce cell death or 
+intensify the efficacy of TNFα. Mechanically, FSP1 is involved in TNFα-mediated 
+NF-κB signaling activation to accelerate the development of IDD. This study 
+demonstrated that FSP1 promotes IDD through TNFα-reliant NF-κB signaling 
+activation and caspase 3-dependent apoptosis. These findings suggested a novel 
+therapeutic target for the treatment of IDD.","© 2024 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi 
+Communications Co., Ltd.","DOI: 10.1016/j.gendis.2024.101251
+PMCID: PMC11565395
+PMID: 39552786"
+"6. Genes Dis. 2024 Jan 12;12(1):101209. doi: 10.1016/j.gendis.2024.101209. 
+eCollection 2025 Jan.","Naked cuticle homolog 2 controls the differentiation of osteoblasts and 
+osteoclasts and ameliorates bone loss in ovariectomized mice.","Shan L(1), Liao X(1), Yang X(1), Zhu E(1), Yuan H(1), Zhou J(1), Li X(2), Wang 
+B(1).","Author information:
+(1)NHC Key Lab of Hormones and Development and Tianjin Key Lab of Metabolic 
+Diseases, Tianjin Medical University Chu Hsien-I Memorial Hospital & Institute 
+of Endocrinology, Tianjin 300134, China.
+(2)College of Basic Medical Sciences, Tianjin Medical University, Tianjin 
+300070, China.","Naked cuticle homolog 2 (NKD2) has been recognized as an antagonist of 
+Wnt/β-catenin signaling and a tumor suppressor. The role of NKD2 in osteoblast 
+and osteoclast differentiation and the mechanism are not fully understood. In 
+this study, we identified the up-regulation of NKD2 during osteoblast and 
+adipocyte differentiation. Functional experiments revealed that NKD2 stimulated 
+osteoblast differentiation and suppressed adipocyte formation. Furthermore, NKD2 
+down-regulated the expression of receptor activator of nuclear factor-κB ligand 
+in bone marrow mesenchymal stem cells and inhibited osteoclast formation from 
+osteoclast precursor cells. Mechanistic investigations revealed that the 
+regulation of osteoblast and adipocyte differentiation by NKD2 involved 
+Wnt/β-catenin and tuberous sclerosis complex subunit 1 (TSC1)/mechanistic target 
+of rapamycin complex 1 (mTORC1) signaling pathways. Unlike in undifferentiated 
+mesenchymal cells where NKD2 promoted Dishevelled-1 degradation, in the cells 
+differentiating toward osteoblasts or adipocytes NKD2 down-regulated secreted 
+frizzled related protein 1/4 expression and failed to destabilize Dishevelled-1, 
+thereby activating Wnt/β-catenin signaling. Moreover, NKD2 bound to TSC1 and 
+inhibited mTORC1 signaling. Further investigation uncovered an interplay between 
+TSC1/mTORC1 and Wnt/β-catenin signaling pathways. Finally, transplantation of 
+NKD2-overexpressing bone marrow mesenchymal stem cells into the marrow of mice 
+increased osteoblasts, reduced osteoclasts and marrow fat, and partially 
+prevented bone loss in ovariectomized mice. This study provides evidence that 
+NKD2 in mesenchymal stem/progenitor cells reciprocally regulates the 
+differentiation of osteoblasts and adipocytes by modulating Wnt/β-catenin and 
+mTORC1 pathways and inhibits osteoclast formation by down-regulating receptor 
+activator of nuclear factor-κB ligand. It suggests that NKD2 up-regulation may 
+ameliorate postmenopausal bone loss.","© 2024 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi 
+Communications Co., Ltd.","DOI: 10.1016/j.gendis.2024.101209
+PMCID: PMC11567042
+PMID: 39552785",Conflict of interest statement: All authors declared no conflict of interests.
+"7. Mitochondrial DNA B Resour. 2024 Nov 14;9(11):1544-1548. doi: 
+10.1080/23802359.2024.2429644. eCollection 2024.","Complete linear mitochondrial genomes for Cephea cephea and Mastigias 
+albipunctata (Scyphozoa: Rhizostomeae), with an analysis of phylogenetic 
+relationships.","Tan KC(1), Lewis Ames C(1), Collins AG(2)(3).","Author information:
+(1)Graduate School of Agricultural Sciences & WPI-Advanced Institute for Marine 
+Ecosystem Change, Tohoku University, Sendai, Japan.
+(2)National Systematics Laboratory; Office of Science and Technology, NOAA 
+National Marine Fisheries Service, Washington, DC, USA.
+(3)Department of Invertebrate Zoology, Smithsonian National Museum of Natural 
+History (NMNH), Washington, DC, USA.","Jellyfishes of the order Rhizostomeae include ecologically and economically 
+important species predisposed to forming massive aggregations. This study 
+reports the first complete mitochondrial genome of two rhizostomes: Cephea 
+cephea (Forskål, 1775) and Mastigias albipunctata Stiasny, 1920. The linear 
+mitochondrial genomes are 16,667bp and 16,707bp in length and 65.5% and 68.4% AT 
+respectively; each comprises 15 protein-coding genes (PCGs; dpo, orf314, cox1-3, 
+nd1-6, nd4L, atp6, atp8 and cytB), two ribosomal RNAs (16S and 12S rRNA), and 
+two tRNAs (trnM and trnW). The phylogenetic analysis reveals strong support for 
+monophyly of the suborder Kolpophorae and Cephea cephea of the infraorder 
+Actinomyaria as sister to Krykomyaria which includes Mastigias.","© 2024 The Author(s). Published by Informa UK Limited, trading as Taylor & 
+Francis Group.","DOI: 10.1080/23802359.2024.2429644
+PMCID: PMC11565657
+PMID: 39552783","Conflict of interest statement: No potential conflict of interest was reported 
+by the author(s)."
+"8. SAGE Open Med. 2024 Nov 15;12:20503121241298826. doi:
+10.1177/20503121241298826.  eCollection 2024.","The pattern of antibiotic resistance and distribution of the biofilm-producing 
+Pseudomonas aeruginosa (PelD, PslB) isolated from infectious hospital 
+departments.","Masoumi N(1), Keshavarzi F(1).","Author information:
+(1)Department of Biology, Sanandaj Branch, Islamic Azad University, Sanandaj, 
+Iran.","BACKGROUND: The ability of Pseudomonas aeruginosa to produce biofilm has 
+established it as one of the most significant pathogens. The purpose of this 
+study was to evaluate antimicrobial resistance and conduct a molecular 
+investigation of the virulence genes PslB and PelD in Pseudomonas aeruginosa 
+species isolated from patients.
+METHODOLOGY: One hundred clinical isolates were collected from patients of 
+different age groups who were hospitalized in Kermanshah and Sonqor hospitals. 
+The isolates were obtained through culture on specific media, biochemical 
+confirmatory tests, and gram staining for confirmation. Biofilm production was 
+assessed using an indirect quantification method with crystal violet. 
+Additionally, antibiotic resistance was determined through the disc various 
+method following Clinical and Laboratory Standards Institute guidelines. 
+Finally, the presence of genes related to PlsB and PelD in resistant strains was 
+examined using The polymerase chain reaction (PCR).
+RESULTS: The results indicate that the highest resistance and lowest sensitivity 
+were related to nitrofurantoin 100 μg, while the lowest resistance and highest 
+sensitivity were related to cefepime 30 mg. Biofilm phenotypes were categorized 
+as weak in 7% (n = 7) of isolates, medium in 13% (n = 13), and high in 80% 
+(n = 80). The PslB and PelD genes were identified in 86% (n = 86) and 38% 
+(n = 38) of isolates, respectively, while 4% (n = 4) did not possess either of 
+these two genes. Additionally, a majority of the isolates exhibited 
+multidrug-resistance (87%) due to their moderate-to-high biofilm formation.
+CONCLUSION: All isolates were capable of producing biofilm. A significant 
+association were between strains with the high biofilm and multidrug-resistance 
+species (p < 0.05). Multidrug-resistance (78%) isolates included 28% (n = 28) of 
+isolates that were PslB+ PelD+, 45% (n = 45) of isolates that were only PslB+, 
+and 5 (n = 5) isolates that were only PelD+. A significant relationship was 
+found between the presence of the PslB gene multidrug-resistance and high 
+producer (p < 0.05).",© The Author(s) 2024.,"DOI: 10.1177/20503121241298826
+PMCID: PMC11569483
+PMID: 39552765","Conflict of interest statement: The author(s) declared no potential conflicts of 
+interest with respect to the research, authorship, and/or publication of this 
+article."
+"9. Biochem Biophys Rep. 2024 Nov 1;40:101860. doi: 10.1016/j.bbrep.2024.101860. 
+eCollection 2024 Dec.","Identification of hub genes and pathways in Uterine corpus endometrial carcinoma 
+(UCEC): A comprehensive in silico study.","Ejlalidiz M(1), Mehri-Ghahfarrokhi A(2), Saberiyan M(3).","Author information:
+(1)Medical Student Research Committee, School of Medicine, Shahid Beheshti 
+University of Medical Sciences, Tehran, Iran.
+(2)Clinical Research Developmental Unit, Hajar Hospital, Shahrekord University 
+of Medical Sciences, Shahrekord, Iran.
+(3)Department of Medical Genetics, School of Medical Sciences, Hormozgan 
+University of Medical Sciences, Bandar Abbas, Iran.","BACKGROUND: Uterine corpus endometrial carcinoma (UCEC), derived from the 
+endometrium, is the most common type of endometrial malignasis. This 
+gynecological malignancy is very common all over the world, especially in 
+developed countries and shows a potentially rising trend correlated with the 
+increase in obese women.
+METHODS: Differentially Expressed Genes (DEGs) analysis was conducted on GSE7305 
+and GSE25628 datasets from the Gene Expression Omnibus (GEO). DEGs were 
+identified using GEO2R (adjusted p-value <0.05, |logFC| > 1). Pathway analysis 
+employed KEGG and Gene Ontology databases, while protein-protein interactions 
+were analyzed using Cytoscape and Gephi. GEPIA was used for target gene 
+validation.
+RESULTS: We have identified 304 common DEGs and 78 hub genes using GEO and PPI 
+analysis, respectively. The GO and KEGG pathways analysis revealed enrichment of 
+DEGs in extracellular matrix structural constituent, extracellular space, cell 
+adhesion, and ECM-receptor interaction. GEPIA analysis identified three genes, 
+ENG, GNG4, and ECT2, whose expression significantly differed between normal and 
+tumor samples.
+CONCLUSION: This analysis study identified the hub genes and associated pathways 
+involved in the pathogenesis of UCEC. The identified hub genes exhibit 
+remarkable potential as diagnostic biomarkers, providing a significant 
+opportunity for early diagnosis and more effective therapeutic approaches for 
+UCEC.",© 2024 The Author(s).,"DOI: 10.1016/j.bbrep.2024.101860
+PMCID: PMC11565547
+PMID: 39552710","Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper."
+"10. Biochem Biophys Rep. 2024 Nov 1;40:101863. doi: 10.1016/j.bbrep.2024.101863. 
+eCollection 2024 Dec.",Investigation of CST7 and hsa-miR-4793-5p gene expression in breast cancer.,"Kalaki NS(1), Ahmadzadeh M(1), Dehghan M(2), Shahabi Rabori V(3), Davoudi S(4), 
+Afkhami H(5)(6)(7).","Author information:
+(1)Department of Cellular and Molecular Biology, Faculty of Biological Sciences, 
+Kharazmi University, Tehran, Iran.
+(2)Student Research Committee, Shiraz University of Medical Sciences, Shiraz, 
+Iran.
+(3)Department of Cardiology, Urmia University of Medical Sciences, Urmia, Iran.
+(4)Department of Clinical Oncology, Omid Hospital, Urmia University of Medical 
+Sciences, Urmia, Iran.
+(5)Cellular and Molecular Research Center, Qom University of Medical Sciences, 
+Qom, Iran.
+(6)Nervous System Stem Cells Research Center, Semnan University of Medical 
+Sciences, Semnan, Iran.
+(7)Department of Medical Microbiology, Faculty of Medicine, Shahed University, 
+Tehran, Iran.","Breast cancer (BC) presents as a worldwide challenge, known as the most 
+frequently diagnosed cancer in women. In 2022, BC was diagnosed in 2.3 million 
+women with 670,000 deaths globally. In this research, our objective was to 
+examine the CST7 and has-miR-4793-5p gene expression in BC tumor tissues and 
+adjacent normal tissues. Using GSE57897 gene expression data from 422 BC samples 
+and 31 breast samples from healthy controls which was based on the Platform 
+GPL18722 (spotted oligonucleotide Homo sapiens microRNA (miRNA) array) in the 
+Gene Expression Omnibus (GEO) and compare with miRNAs with a conserved target 
+location on CST7 mRNA were found using databases. The study population included 
+60 fresh BC tissue samples and adjacent normal tissues as control. The 
+Quantitative Real-Time PCR was used to evaluate the expression levels of CST7 
+and has-miR-4793-5p in the breast tissues. The present study, found that CST7 
+and hsa-miR-4793-5p were significantly increased in tumoral tissues in compare 
+to normal tissues. Further analysis revealed a remarkable association between 
+CST7 and hsa-miR-4793-5p gene expression alteration. ROC curve analysis 
+demonstrated high accuracy for CST7 expression in BC tumors. Comparison of gene 
+expression between different stages and patient family history showed 
+significant findings. Due to the high sensitivity and specificity of the 
+expression changes of these two genes, they are suitable candidates for further 
+investigations to be considered as part of a diagnosis and prognosis panel.",© 2024 The Authors.,"DOI: 10.1016/j.bbrep.2024.101863
+PMCID: PMC11566318
+PMID: 39552709","Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper."
