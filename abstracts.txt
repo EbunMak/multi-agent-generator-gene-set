@@ -1,0 +1,431 @@
+"BACKGROUND: Diabetic kidney disease (DKD) is a global health issue. Epigenetic 
+changes play an important role in the pathogenesis of this disease.
+SUMMARY: DKD is currently the leading cause of kidney failure worldwide. 
+Although much is known about the pathophysiology of DKD, the research field of 
+epigenetics is relatively new. Several recent studies have demonstrated that 
+diabetes-induced dysregulation of epigenetic mechanisms alters the expression of 
+pathological genes in kidney cells. If these changes persist for a long time, 
+the so-called ""metabolic memory"" could be established. In this review, we 
+highlight diabetes-induced epigenetic modifications associated with DKD. While 
+there is a substantial amount of literature on epigenetic changes, only a few 
+studies describe the underlying molecular mechanisms. Detailed analyses have 
+shown that epigenetic changes play an important role in known pathological 
+features of DKD, such as podocyte injury, fibrosis, accumulation of 
+extracellular matrix, or oxidative injury, all of which contribute to the 
+pathophysiology of disease. The transforming growth factor-β plays a key role as 
+it is involved in all-mentioned epigenetic types of regulation.
+KEY MESSAGES: Epigenetic is crucial for the development and progression of DKD, 
+but the detailed molecular mechanisms have to be further analyzed more in 
+detail."
+"Carbapenems are the last-resort antibiotics used to treat infections caused by 
+bacterial pathogens. Many bacterial pathogens have evolved to produce NDM 
+carbapenemases to hydrolyze carbapenems, posing a great challenge to public 
+health. In this study, we report a multidrug resistant clinical E. coli strain 
+673. Strain 673 belongs to sequence type (ST) 1431 and carries several plasmids, 
+p673-blaTEM-1B, p673-blaCTX-M-55, p673-blaNDM-5, p673-13272, and p673-6468. 
+p673-blaNDM-5 is an IncHI2/IncHI2A-type plasmid harboring several antibiotic 
+resistance genes, including bla NDM-5, strA, strB, and dfrA. The bla NDM-5 gene 
+was surrounded by two IS26 elements in p673-blaNDM-5, indicating that IS26 could 
+mediate the integration of bla NDM-5 into p673-blaNDM-5. p673-blaCTX-M-55 is an 
+IncFII-type plasmid harboring fosA, aadA1, and bla CTX-M-55. p673-blaTEM-1B is 
+an IncFIB-type plasmid harboring bla TEM-1B and dfrA5. p673-13272 is a 
+ColRNAI-type plasmid that does not carry any drug resistance genes. This is the 
+first report that a bla NDM-5-bearing IncHI2/IncHI2A-type plasmid has emerged in 
+a clinical E. coli strain in China. Our findings suggest that IS26 mediates the 
+integration of bla NDM-5 into p673-blaNDM-5. The spread of bla NDM-5-bearing 
+plasmids is a clinical challenge and endangers public health."
+"BACKGROUND: Dermatomyositis (DM) is an inflammatory muscle disease that 
+increases the risk of cancer, although the precise connection is not fully 
+understood. The aim of this study was to investigate the mechanisms linking DM 
+to cancer and identify potential therapeutic targets.
+METHODS: We conducted differential gene expression analysis on the GSE128470 
+dataset and employed WGCNA to pinpoint key genes related to DM. Central genes 
+were identified with the LASSO and SVM-RFE methods. The expression levels and 
+diagnostic relevance of these genes were confirmed via the GSE1551 dataset. 
+Immune cell infiltration was analyzed in relation to central genes, and RT‒qPCR 
+was utilized to evaluate the expression of key genes across various cancers.
+RESULTS: In total, differentially expressed genes (DEGs), involved mainly in 
+innate immunity, cytokine responses, and autoimmune diseases, were identified. 
+In the WGCNA, 399 significant genes related to DM were identified, with central 
+genes including MIF, C1QA, and CDKN1A. Immune infiltration analysis revealed 
+diverse immune cell populations in DM patients, with significant correlations 
+between central genes and these immune cells. MIF levels were notably elevated 
+in various tumors and correlated with the prognosis of specific cancers. 
+Furthermore, MIF was negatively associated with most immune cells but positively 
+correlated with CD4+ Th1 cells, NKT cells, and MDSCs. Factors such as immune 
+regulatory elements, TMB, and MSI indicated that MIF may affect immunotherapy 
+outcomes. The increased expression of MIF mRNA was confirmed via RT‒qPCR.
+CONCLUSION: The findings demonstrate that MIF, C1QA, and CDKN1A are 
+differentially expressed in DM patients, with MIF showing significant 
+alterations in DM patients with cancer. MIF may serve as a crucial prognostic 
+biomarker and therapeutic target for various cancers, playing a pivotal role in 
+linking DM to cancer through the modulation of CD4+ Th1 cells, NKT cells, and 
+MDSCs."
+"BACKGROUND: Targeting ferroptosis is an effective approach to mitigate hepatic 
+fibrosis, yet no reports exist on the ferroptosis signature in liver fibrosis. 
+This study aimed to explore ferroptosis characteristics in this disease.
+METHODS: RNAseq data from GSE6764, GSE188604 and Cancer Genome Atlas Liver 
+Hepatocellular Carcinoma (TCGA-LIHC) were downloaded. Multiple machine learning 
+methods, including Weighted Gene Co-expression Network Analysis (WGCNA), Random 
+Forest (RF) and Support Vector Machine (SVM), were used to identify core genes 
+in liver fibrosis and ferroptosis. WGCNA can pinpoint modules linked to clinical 
+traits, aiding in discovering diagnostic and progression molecules in complex 
+diseases. RF and SVM are often utilized for WGCNA validation to boost result 
+accuracy. Carbon tetrachloride (CCl4) was used to establish a mouse liver 
+fibrosis model to validate core gene expression, which was also assessed in test 
+and validation GEO datasets. Finally, the diagnostic role of the core genes in 
+liver fibrosis and hepatocellular carcinoma (HCC) was also investigated using 
+ROC analysis.
+RESULTS: Multiple machine learning methods screened nine core genes, including 
+IL1B, GSTZ1, LIFR, SLC25A37, PTGS2, MT1G, HSPB1, ESR1, and PHGDH. In vivo 
+experimental validation, RT-PCR showed ESR1 and GSTZ1 were significantly 
+under-expressed in the liver fibrosis group compared to the normal group. 
+Simultaneously, in GSE6764 and GSE188604, ESR1 and GSTZ1 were also identified as 
+protective genes for liver fibrosis. More in-depth research found that ESR1 and 
+GSTZ1 exhibited a good diagnostic performance both in liver fibrosis and HCC, 
+suggesting that a persistent decrease in ESR1 and GSTZ1 in patients might signal 
+the progression from hepatic fibrosis to HCC.
+CONCLUSION: The present study is the first to report the ferroptosis signature 
+in liver fibrosis and identifies two novel biomarkers, ESR1 and GSTZ1, providing 
+new insights for the diagnosis and treatment of liver fibrosis in the future."
+"BACKGROUND: This study aimed to identify and characterize novel PANoptosis 
+biomarkers for community-acquired pneumonia (CAP) diagnosis.
+METHODS: Transcriptomic data from training set GSE196399 and validation sets 
+GSE94916 and GSE202947 were utilized. A PANoptosis gene set was identified by 
+intersecting DEGs linked to CAP, WGCNA hub genes, and PANoptosis-related genes. 
+GO and KEGG analyses were conducted for enrichment analysis. PANoptosis scores 
+were calculated via ssGSEA. Feature genes were identified using SVM-RFE, LASSO 
+regression, and RF methods. Diagnostic performance was assessed via ROC 
+analysis. Immune cell infiltration was evaluated using CIBERSORT. A PPI network 
+was constructed, and a nomogram was developed for CAP prediction. Drug-gene 
+interactions were investigated. qRT-PCR was conducted to confirm feature gene 
+alterations in clinical samples.
+RESULTS: We identified 7555 DEGs associated with CAP from the GSE196399 dataset. 
+Through WGCNA, a PANoptosis gene set of 39 genes was found, showing significant 
+enrichment in pathways related to apoptosis and inflammation. CAP patients 
+exhibited significantly reduced PANoptosis scores compared to healthy controls, 
+with a marked upregulation in the majority of the PANoptosis gene set in 
+high-score individuals. Four feature genes (ZNF304, AKT3, MAPK8, and ARHGAP10) 
+were identified as potential biomarkers, exhibiting high diagnostic accuracy 
+with AUCs generally above 0.8. These genes also showed significant correlations 
+with M0 macrophages and neutrophils. Drug-gene interaction analysis revealed 
+potential therapeutic agents targeting MAPK8 and AKT3. Validation in clinical 
+samples confirmed gene expression alterations in CAP patients.
+CONCLUSION: The identified PANoptosis feature genes demonstrate high diagnostic 
+accuracy for CAP, serving as potential biomarkers and therapeutic targets for 
+CAP."
+"BACKGROUND: Osteoarthritis (OA), a degenerative and chronic joint disease, is 
+essential for identifying novel biomarkers for the clinical diagnosis of OA.
+METHODS: We collected 35 OA patients and 32 healthy controls from four clinical 
+cohorts and 8 real-world samples from our institute. The activation status of 
+7530 signalling pathways was calculated via the gene set enrichment analysis 
+(GSEA) algorithm. Ten machine learning algorithms and 101 algorithm combinations 
+were further applied to recognize the most diagnostic genes. KDELR3 was chosen 
+for further validation via immunohistochemical staining to determine its 
+diagnostic value in real-world samples.
+RESULTS: Sixteen pathways, namely, the cellular respiration chain, protein 
+transport, lysosomal and endocytosis pathways, were activated in OA patients. A 
+total of 101 types of algorithm combinations were considered for the diagnostic 
+model, and 58 were successfully output. The two-step model of glmBoost plus RF 
+had the highest average AUC value of 0.95 and was composed of LY86, SORL1, 
+KDELR3, CSK, PTGS1, and PTGS2. Preferable consistency of the diagnostic mole and 
+real conditions was observed in all four cohorts (GSE55235: Kappa=1.000, 
+P<0.001; GSE55457: Kappa=0.700, P<0.001; GSE82107: Kappa=0.643, P=0.004; 
+GSE1919: Kappa=1.000, P<0.001). KDELR3 was expressed at higher levels in OA 
+patients than were the other genes, and with the help of immunohistochemistry 
+(IHC), we confirmed that OA patients presented high levels of KDELR3 in synovial 
+tissues. The infiltration of immunocytes, macrophages, and natural killer T 
+cells was high in OA patients. KDELR3 might be involved in the activation and 
+infiltration of effector memory CD4 T cells (Rpearson = 0.58, P < 0.001) and 
+natural killer T cells (Rpearson = 0.53, P < 0.001).
+CONCLUSION: We constructed and validated a six-gene diagnostic model for OA 
+patients via machine learning, and KDELR3 emerged as a novel biomarker for OA."
+"PURPOSE: Osteoarthritis (OA) is the most common degenerative joint disease. 
+However, its etiology remains largely unknown. Zinc Finger Protein 652 (ZNF652) 
+is a transcription factor implicated in various biological processes. 
+Nevertheless, its role in OA has not been elucidated.
+METHODS: The search term ""osteoarthritis"" was utilized to procure transcriptome 
+data relating to OA patients and healthy people from the Gene Expression Omnibus 
+(GEO) database. Then a screening process was initiated to identify 
+differentially expressed genes (DEGs). The DEGs were discerned using three 
+distinct machine learning methods. The accuracy of these DEGs in diagnosing OA 
+was evaluated using the Receiver Operating Characteristic (ROC) Curve. A 
+competitive endogenous RNA (ceRNA) visualization network was established to 
+delve into potential regulatory targets. The ZNF652 expression was confirmed in 
+the cartilage of OA rats using quantitative reverse transcription polymerase 
+chain reaction (qRT-PCR) and Western blotting (WB) and analyzed using an 
+independent t-test.
+RESULTS: ZNF652 was identified as a DEG and exhibited the highest diagnostic 
+value for OA according to the ROC analysis. The GO and KEGG enrichment analyses 
+suggest that ZNF652 plays a vital role in OA development through processes 
+including nitric oxide anabolism, macrophage proliferation, immune response, and 
+the PI3K/Akt and the MAPK signaling pathways. The increased expression of ZNF652 
+in OA was validated in qRT-PCR (1.193 ± 0.005 vs 1.000 ± 0.005, p < 0.001) and 
+WB (0.981 ± 0.055 vs 0.856 ± 0.026, p = 0.012) analysis.
+CONCLUSION: ZNF652 was found to be related to OA pathogenesis and can 
+potentially serve as a diagnostic and therapeutic target of OA. The underlying 
+mechanism is that ZNF652 was related to nitric oxide anabolism, macrophage 
+proliferation, various signaling pathways, and immune cells and their functions 
+in OA. Nevertheless, the findings need to be confirmed in clinical trials and 
+the molecular mechanism requires further study."
+"BACKGROUND AND PURPOSE: Esophageal cancer-related gene-4 (ECRG4) participate in 
+inflammation process and can interact with the innate immunity complex 
+TLR4-MD2-CD14 on human granulocytes. In addition, ECRG4 participate in 
+modulation of ion channel function and electrical activity of cardiomyocytes. 
+However, the exact mechanism is unknown. This study aimed to test our hypothesis 
+that ECRG4 contributes to inflammation-induced ion channel dysfunctions in 
+cardiomyocytes.
+METHODS: Human-induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) 
+generated from three donors were treated with lipopolysaccharide (LPS) to 
+establish an endotoxin-induced inflammatory model. Immunostaining, real-time 
+PCR, and patch-clamp techniques were used for the study.
+RESULTS: ECRG4 was detected in hiPSC-CMs at different differentiation time. LPS 
+treatment increased ECRG4 expression in hiPSC-CMs. Knockdown of ECRG4 decreased 
+the expression level of Toll-Like-Receptor 4 (TLR4, a LPS receptor) and its 
+associated genes and inflammatory cytokines. Furthermore, ECRG4 knockdown 
+shortened the action potential duration (APD) and intercepted LPS-induced APD 
+prolongation by enhancing ISK (small conductance calcium-activated K channel 
+current) and attenuating INCX (Na/Ca exchanger current). Overexpression of ECRG4 
+mimicked LPS effects on ISK and INCX, which could be prevented by NFκB signaling 
+blockers.
+CONCLUSION: This study demonstrated that LPS effects on cardiac ion channel 
+function were mediated by the upregulation of ECRG4, which affects NFκB 
+signaling. Our findings support the roles of ECRG4 in inflammatory responses and 
+the ion channel dysfunctions induced by LPS challenge."
+"The highly active natural product yatakemycin (YTM) from Streptomyces sp. 
+TP-A0356 is a potent DNA damaging agent with antimicrobial and antitumor 
+properties. The YTM biosynthesis gene cluster (ytk) contains several toxin 
+self-resistance genes. Of these, ytkR2 encodes a DNA glycosylase that is 
+important for YTM production and host survival by excising lethal YTM-adenine 
+lesions from the genome, presumably initiating a base excision repair (BER) 
+pathway. However, the genes involved in repair of the resulting 
+apurinic/apyrimidinic (AP) site as the second BER step have not been identified. 
+Here, we show that ytkR4 and ytkR5 are essential for YTM production and encode 
+deoxyribonucleases related to other known DNA repair nucleases. Purified YtkR4 
+and YtkR5 exhibit AP endonuclease activity specific for YtkR2-generated AP 
+sites, providing a basis for BER of the toxic AP intermediate produced from 
+YTM-adenine excision and consistent with co-evolution of ytkR2, ytkR4, and 
+ytkR5. YtkR4 and YtkR5 also exhibit 3'-5' exonuclease activity with differing 
+substrate specificities. The YtkR5 exonuclease is capable of digesting through a 
+YTM-DNA lesion and may represent an alternative repair mechanism to BER. We also 
+show that ytkR4 and ytkR5 homologs are often clustered together in putative gene 
+clusters related to natural product production, consistent with non-redundant 
+roles in repair of other DNA adducts derived from genotoxic natural products."
+"INTRODUCTION: We undertook an in-depth investigation of the data pertaining to 
+pancreatic adenocarcinoma (PAAD) to identify potential targets for the 
+development of precision therapies.
+MATERIAL AND METHODS: The construction of a protein-protein interaction (PPI) 
+network was based on overlapping differentially expressed genes (DEGs) 
+identified in the GSE16515, GSE32676, and GSE125158 datasets. A subsequent 
+bioinformatic analysis was performed on the interconnected genes within the PPI 
+network, leading to the identification of the central gene, CENPN. In vitro 
+experimentation such as CCK8 and Transwell experiments was employed to elucidate 
+the impact of CENPN expression patterns on PAAD cell proliferation, migration, 
+and invasion. Furthermore, the investigation revealed through comprehensive 
+enrichment analysis that the pivotal signaling pathway associated with CENPN is 
+the p53 signaling pathway.
+RESULTS: Following a comprehensive bioinformatic analysis of 161 concordant 
+differentially expressed genes (DEGs) across three microarray datasets, CENPN 
+emerged as the central gene under investigation. Overexpression of CENPN in 
+pancreatic adenocarcinoma (PAAD) was associated with unfavorable patient 
+outcomes and heightened sensitivity to four PAAD therapies: gemcitabine, 
+docetaxel, paclitaxel, and sunitinib. Reduced CENPN expression impeded PAAD cell 
+proliferation, migration, and invasion; however, these effects were counteracted 
+upon upregulation of CENPN expression. Additionally, CENPN interacted with MDM2, 
+promoting PAAD progression by targeting the p53 signaling pathway.
+CONCLUSIONS: The findings of our study substantiate that CENPN is associated 
+with the pathogenesis of PAAD. Consequently, CENPN appears to be a promising 
+candidate for targeted precision therapy in clinical applications."
+"INTRODUCTION: Absence of mismatch repair (MMR) genes in tumor cells or errors in 
+the replication repair process may lead to DNA-MMR deficiency and microsatellite 
+instability (MSI) formation. Specific tumor environments where gene variations 
+are observed are believed to be conducive to the formation of MSI. This study 
+aimed to determine the MSI status, MMR protein expression, and somatic mutation 
+profile in solid organ tumors.
+MATERIAL AND METHODS: In this study, the records of 192 patients with solid 
+organ tumors who were referred to the Molecular Pathology Laboratory between 
+January 2018 and December 2022 were reviewed retrospectively. The MSI profiles 
+of the patients were evaluated using real-time polymerase chain reaction (PCR) 
+and immunohistochemical (IHC) methods. Somatic variations in the patients were 
+detected using an NGS colon cancer panel.
+RESULTS: In the IHC evaluation, 22 cases showed MMR-deficient (dMMR) or high MSI 
+(MSI-H), and 170 cases showed MMR-proficient (pMMR) or microsatellite stable 
+(MSS). Real-time PCR results on the 22 dMMR cases revealed that 11 cases had 
+MSI-H and 11 cases had MSS status. Among the 170 cases with pMMR, 160 cases were 
+found to have MSS status, while 10 cases had low MSI (MSI-L). NGS analysis 
+revealed that the three most frequent pathogenic variants in all cases were BLM 
+exon 7 c.1544delA, MSH3 exon 7 c.1148delA, and MLH3 exon 2 c.1755delA. MSI-H 
+cancer patients had a higher variation burden compared to MSS cancer patients. 
+The most frequently observed pathogenic variant in both MSI-H and MSS cancer 
+patients was BLM exon 7 c.1544delA.
+CONCLUSIONS: Our study covers not only colorectal cancer patients but also other 
+solid tumor types, providing the first data from the Turkish population on the 
+MSI-H/dMMR status and somatic mutation profile in the presence of this 
+condition."
+"The section Aspergillus includes xerophilic fungi that are economically 
+significant and broadly distributed in natural settings as well as human 
+habitats and are recognized for their sustenance on substrates with low water 
+activity. Accurate identification of fungal species is essential for any 
+reliable advances in mycological research. In this study, 108 strains from the 
+section Aspergillus, originating from Korea and conserved at the Korean 
+Agricultural Culture Collection, were subjected to re-identification using a 
+combined dataset that included partial sequences of β-tubulin (BenA), Calmodulin 
+(CaM), and RNA polymerase II second largest subunit (RPB2) genes, along with 
+their morphological characteristics. We confirmed the presence of 12 species 
+among the 108 strains originally isolated from Korea. Of them, nine species have 
+been formerly reported in Korea (Aspergillus chevalieri, Aspergillus cibarius, 
+Aspergillus cumulatus, Aspergillus glaucus, Aspergillus montevidensis, 
+Aspergillus proliferans, Aspergillus pseudoglaucus, Aspergillus ruber, and 
+Aspergillus tonophilus), and 3 species (Aspergillus aurantiacoflavus, 
+Aspergillus intermedius, and Aspergillus niveoglaucus) were found to be 
+previously unreported to be isolated from Korea. Here, the detailed 
+characteristic features of these three unexplored species are presented, 
+including specific morphological traits, genetic variations, and ecological 
+niches in Korea."
+"Pseudoperonospora cubensis is a significant phytopathogen causing downy mildew 
+disease in cucurbit crops. Understanding the molecular mechanisms underlying the 
+interaction between P. cubensis and its host is essential for developing 
+effective disease management strategies. RxLR effectors, secreted by pathogens, 
+play a crucial role in modulating host immunity. In this study, we sequenced the 
+genome of the P. cubensis isolate CNU-OTH and identified RxLR effector genes 
+using bioinformatics tools. A total of 45 RxLR effector genes were identified 
+from the genome of P. cubensis. Cloning and functional characterization of these 
+effectors were performed through transient expression assays in Nicotiana 
+benthamiana leaves. Subcellular localization of selected effectors was 
+determined using GFP-tagged constructs. Functional characterization revealed 
+that while most effectors did not induce a hypersensitive response (HR), a 
+subset showed either weak or strong necrosis. Furthermore, several effectors 
+demonstrated the ability to suppress cell death induced by BAX and INF1. 
+Subcellular localization analysis indicated that RxLR effectors exhibited 
+fluorescence in the nucleus and plasma membrane of N. benthamiana cells, 
+suggesting diverse roles in host-pathogen interactions. This study provides 
+insights into the genetic diversity and functional characterization of RxLR 
+effectors in P. cubensis. Understanding the role of these effectors in 
+manipulating host immunity is critical for developing strategies to combat downy 
+mildew disease in cucurbit crops. The findings contribute to the broader 
+understanding of plant-pathogen interactions and may facilitate the development 
+of disease-resistant crop varieties."
+"BACKGROUND: Lung adenocarcinoma (LUAD) is the most prevalent subtype of 
+non-small cell lung cancer (NSCLC), characterized by poor prognosis and a high 
+mortality rate. Identifying reliable prognostic biomarkers and potential 
+therapeutic targets is crucial for improving patient outcomes.
+METHODS: We conducted a comprehensive analysis of HJURP expression in LUAD using 
+data from four cohorts: TCGA-LUAD (n = 453), GSE31210 (n = 226), GSE68465 (n = 
+442), and GSE72094 (n = 386). Univariate Cox regression analysis was employed to 
+identify prognostic genes, with Kaplan-Meier survival analysis used to assess 
+the predictive power of HJURP. Functional enrichment analyses were performed 
+using MetaScape and FGSEA, and spatial transcriptomics and single-cell 
+sequencing data were analyzed to explore HJURP's distribution and potential 
+functions. Additionally, correlations between HJURP expression and genetic 
+alterations, immune cell infiltration, and potential therapeutic responses were 
+evaluated.
+RESULTS: HJURP was identified as a significant prognostic biomarker in all four 
+cohorts, with high expression associated with increased risk of overall survival 
+(OS) death (TCGA-LUAD: HR = 1.93, 95% CI: 1.321-2.815, P < 0.001; GSE31210: HR = 
+2.75, 95% CI: 1.319-5.735, P = 0.007; GSE68465: HR = 1.57, 95% CI: 1.215-2.038, 
+P < 0.001; GSE72094: HR = 2.2, 95% CI: 1.485-3.27, P < 0.001). Functional 
+analyses indicated that HJURP is involved in DNA metabolic processes, cell cycle 
+regulation, and mitotic processes, with significant activation of pathways 
+related to MYC targets, G2M checkpoint, and DNA repair. High HJURP expression 
+was associated with higher mutation frequencies in TP53, CSMD3, TTN, and MUC16, 
+and positively correlated with pro-inflammatory immune cell infiltration and 
+several immune checkpoints, including PD-L1 and PD-L2. Chemotherapeutic agents 
+such as gefitinib and sorafenib were predicted to be effective against high 
+HJURP-expressing tumors.
+CONCLUSION: HJURP is a pivotal biomarker for LUAD, consistently associated with 
+poor prognosis and advanced disease stages. Its high expression correlates with 
+specific genetic alterations and immune profiles, highlighting its potential as 
+a therapeutic target. Future studies should validate these findings in larger 
+cohorts."
+"Epithelial to mesenchymal transition (EMT) has been shown to play an essential 
+role in the early stages of cancer cell invasion and metastasis. Inducible EMT 
+models can initiate EMT in a controlled manner, thereby providing the 
+opportunity to determine whether a cancer-associated gene influences cancer 
+metastasis by triggering EMT. Moreover, different inducible EMT models enable 
+the investigation of specific mechanisms of EMT modulation by various genes, 
+facilitating a more precise understanding of how these genes influence cancer 
+metastasis through the induction of EMT. Unfortunately, current inducible EMT 
+models still present unmet needs. Therefore, we aimed to establish an inducible 
+EMT model in MCF10A cells, a spontaneously immortalized human fibrocystic 
+mammary cell line, by manipulating the expression of mouse Twist1 (mTwist1). In 
+this study, we first compared the EMT induction capacity between human TWIST1 
+(hTWIST1) and mTwist1, and selected mTwist1 for further investigation. By 
+monitoring the changes in epithelial and mesenchymal markers at different 
+induction time points, we examined the EMT process in both polyclonal and 
+monoclonal MCF10A cells that express doxycycline (DOX)-inducible mTwist1. 
+Furthermore, our results showed that doxycycline-induced mTwist1 expression 
+triggered EMT at a similar rate to TGFβ1-induced EMT in MCF10A cells. 
+Additionally, this process was reversible upon DOX withdrawal. Thus, we have 
+established a robust inducible EMT model in MCF10A cells, which can be used to 
+further study cancer metastasis-driving genes."
+"INTRODUCTION: Increasing reactive oxygen species levels can be considered a 
+threatening agent for male infertility. Phoenix dactylifera pollen (Date palm 
+pollen, DPP) positively affects sperm parameters, which has been well documented 
+in animal models. This study aimed to determine the effects of DPP on sperm 
+parameters, expression of antioxidant genes, and activation of antioxidant 
+enzymes in infertile men.
+METHODS AND MATERIALS: This randomized and comparative clinical trial included 
+20 fertile and 60 infertile men referred to Om-e-Leila Hospital in Bandar Abbas, 
+Hormozgan, Iran, during 2016 (March)-17 (June). Sample collection of infertile 
+cases was performed before and after using capsules of DPP powder for 30 
+consecutive days for semen analysis. Semen samples of fertile men were extracted 
+as the controls. Quantitative real-time polymerase chain reaction was performed 
+for RNA extraction to peruse the nuclear factor erythroid 2-related factor 2 
+(NRF2), superoxide dismutase (SOD2), glutathione peroxidase 4 (GPX4), and 
+catalase (CAT) genes. In the end, we used SPSS 16.0 for statistical analyses.
+RESULTS: After using DPP, there was a significant enhancement in the expression 
+of NRF2, GPX4, SOD2, and CAT genes (p = 0.001. However, in the control group, 
+the expression of antioxidant genes was higher than that in the experimental 
+group after the treatment, except for the SOD2 gene (p = 0.16). Our findings 
+also showed that the mean activity of the GPX4, SOD2, and CAT enzymes was higher 
+in the treatment group compared to the control group. There was a correlation 
+between DPP use, expression of antioxidant genes, and the count, volume, 
+motility, and morphology of sperm.
+CONCLUSION AND DISCUSSION: Administering DPP improves semen quality and 
+positively affects the expression of NRF2, SOD2, CAT, and GPX4 genes in 
+infertile men. More studies are suggested to support this hypothesis."
+"Healthcare in low- and middle-income countries is becoming problematic due to 
+the emergence of multidrug-resistant bacteria causing serious morbidity and 
+mortality. Klebsiella variicola carrying multiple antimicrobial resistance (AMR) 
+genes was found significantly among sepsis patients in a study done between 
+October 2019 and September 2020 at four Ethiopian hospitals located in the 
+central (Tikur Anbessa and Yekatit 12), southern (Hawassa), and northern 
+(Dessie) parts. Among 1416 sepsis patients, 74 K. variicola isolates were 
+identified using MALDI-TOF, most of them at Dessie (n=44) and Hawassa (n=28) 
+hospitals. Whole genome sequencing showed that K. variicola strains identified 
+at Dessie Hospital displayed phylogenetic clonality, carried an IncM1 plasmid 
+and the majority were ST3924. Many K. variicola identified at Hawassa Hospital 
+were clonally clustered and the majority belonged to novel STs and carried 
+IncFIB(K) and IncFII(K) plasmids concurrently. Fifty K. variicola carried ESBL 
+genes while 2 isolates harbored AmpC. Other frequently found genes were 
+aac(3)-lla, blaCTX-M-15, blaTEM-1B, blaLEN2, blaOXA-1, blaSCO-1, catB3, dfrA14, 
+QnrB1, aac(6')-lb-cr and sul2. Virulence genes detected at both sites were mrk 
+operons for biofilm formation and siderophore ABC transporter operons for iron 
+uptake. Capsular alleles varied, with wzi 269 at Dessie and wzi 582 at Hawassa. 
+The isolation of multidrug-resistant K. variicola as an emerging sepsis pathogen 
+calls for strong infection prevention strategies and antimicrobial stewardship 
+supported by advanced bacterial identification techniques."
+"BACKGROUND: Alpha-1,3-glucosyltransferase (ALG8), a key enzyme in protein 
+glycosylation, is implicated in the oncogenesis and progression of several human 
+malignancies. This study aimed to define the role of ALG8 in hepatocellular 
+carcinoma (HCC) and uncover its mechanisms of action.
+METHODS: ALG8 expression in HCC and normal tissues was analyzed using the TCGA 
+and GEO databases, validated by RT-qPCR and western blot. Survival outcomes were 
+evaluated via Cox analyses, and ALG8's impact on HCC behavior was examined 
+through functional assays. GO, KEGG, and GSEA identified ALG8-related pathways, 
+validated by biochemical assays.
+RESULTS: In bioinformatics analyses, ALG8 was overexpressed in HCC tissues (p < 
+0.05 for all comparisons) and correlated with poorer survival (p = 0.006 and 
+p = 0.025, respectively), establishing its role as an independent prognostic 
+factor. In vitro experiments showed that knockdown of ALG8 reduced HCC cell 
+proliferation, migration, and invasion. Using the STRING platform and TCGA-LIHC 
+dataset, we identified ALG8-interacting genes and their associated 
+differentially expressed genes (DEGs). GO and KEGG analyses further linked ALG8 
+to genes involved in glycosylation, signal release, and other processes, as well 
+as pathways including neuroactive ligand-receptor interaction and N-Glycan 
+biosynthesis. GSEA, corroborated by western blot and immunofluorescence, points 
+to the Wnt/β-catenin signaling cascade as a probable mechanistic pathway through 
+which ALG8 may modulate HCC progression.
+CONCLUSION: Elevated ALG8 expression in HCC is linked to worse outcomes and 
+increased tumor aggressiveness, with silencing ALG8 reducing Wnt/β-catenin 
+signaling, highlighting ALG8 as a potential therapeutic target."

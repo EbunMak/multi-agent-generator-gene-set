@@ -1,0 +1,45 @@
+"2. Res Sq [Preprint]. 2024 Nov 26:rs.3.rs-5397445. doi: 
+10.21203/rs.3.rs-5397445/v1.","Evaluation of a biomarker for amyotrophic lateral sclerosis derived from a 
+hypomethylated DNA signature of human motor neurons.","Harvey C, Nowak A, Zhang S, Moll T, Weimer AK, Barcons AM, Souza CDS, Ferraiuolo 
+L, Kenna K, Zaitlen N, Caggiano C, Shaw PJ, Snyder MP, Mill J, Hannon E, 
+Cooper-Knock J.","Amyotrophic lateral sclerosis (ALS) lacks a specific biomarker, but is defined 
+by relatively selective toxicity to motor neurons (MN). As others have 
+highlighted, this offers an opportunity to develop a sensitive and specific 
+biomarker based on detection of DNA released from dying MN within accessible 
+biofluids. Here we have performed whole genome bisulfite sequencing (WGBS) of 
+iPSC-derived MN from neurologically normal individuals. By comparing MN 
+methylation with an atlas of tissue methylation we have derived a MN-specific 
+signature of hypomethylated genomic regions, which accords with genes important 
+for MN function. Through simulation we have optimised the selection of regions 
+for biomarker detection in plasma and CSF cell-free DNA (cfDNA). However, we 
+show that MN-derived DNA is not detectable via WGBS in plasma cfDNA. In support 
+of our experimental finding, we show theoretically that the relative sparsity of 
+lower MN sets a limit on the proportion of plasma cfDNA derived from MN which is 
+below the threshold for detection of WGBS. Our findings are important for the 
+ongoing development of ALS biomarkers. The MN-specific hypomethylated genomic 
+regions we have derived could be usefully combined with more sensitive detection 
+methods and perhaps with study of CSF instead of plasma. Indeed we demonstrate 
+that neuronal-derived DNA is detectable in CSF. Our work is relevant for all 
+diseases featuring death of rare cell-types.","DOI: 10.21203/rs.3.rs-5397445/v1
+PMCID: PMC11623773
+PMID: 39649175"
+"3. Res Sq [Preprint]. 2024 Nov 28:rs.3.rs-5489046. doi: 
+10.21203/rs.3.rs-5489046/v1.","Human Alveolar Macrophage Function is Impaired in Tuberculosis Contacts With 
+Diabetes.","Ronacher K, Kleynhans L, Kunsevi-Kilola C, Tshivhula H, Webber T, Keyser A, 
+Prins N, Snyders C, Shabangu A, Rozot V, Kidd M, Zhang H, Cai H, Wang Y, Ewing 
+A, Malherbe S, Azad A, Arnett E, Restrepo B, Schlesinger L.","Type 2 diabetes (T2D) increases susceptibility to tuberculosis (TB) with the 
+underlying mechanisms remaining unknown. To determine whether immune dysfunction 
+in the lung contributes to TB susceptibility, we obtained paired human alveolar 
+macrophages (HAMs) and monocyte-derived macrophages (MDMs) from TB-exposed 
+individuals with/without T2D. Upon infection with Mycobacterium tuberculosis 
+(M.tb), T2D-HAMs had more M.tb growth and produced more TNF. There were fewer 
+neutrophils in the bronchoalveolar lavage of T2D patients which was inversely 
+correlated with M.tb growth. Both T2D-HAMs and MDMs expressed less CD32, with 
+T2D patients having fewer M1-like MDMs. T2D-MDMs produced less IL-1RA and CSF2. 
+Overall M.tb-induced gene expression was delayed in T2D-HAMs, but genes involved 
+in negative regulation of neutrophil migration were upregulated. T2D-HAM DNA was 
+hypermethylated compared to control HAMs, however genes linked to TNF signalling 
+were hypomethylated. We show here the first in-depth analysis of T2D-HAMs 
+providing an explanation for more severe TB in T2D patients.","DOI: 10.21203/rs.3.rs-5489046/v1
+PMCID: PMC11623777
+PMID: 39649174"

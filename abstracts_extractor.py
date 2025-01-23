@@ -70,10 +70,10 @@ while run:
     if retstart > 10:
         run = False
 
-with open("abstracts.csv", "wt") as abstracts_file, open ("partial_abstracts.csv", "wt") as partial_abstracts:
+with open("abstracts.txt", "wt", encoding="utf-8") as abstracts_file, open ("partial_abstracts.csv", "wt") as partial_abstracts:
     # csv writer for full abstracts
     abstract_writer = csv.writer(abstracts_file)
-    abstract_writer.writerow(['Journal', 'Title', 'Authors', 'Author_Information', 'Abstract', 'DOI', 'Misc'])
+    # abstract_writer.writerow(['Journal', 'Title', 'Authors', 'Author_Information', 'Abstract', 'DOI', 'Misc'])
     # csv writer for partial abstracts
     partial_abstract_writer = csv.writer(partial_abstracts)
     #For each abstract, split into categories and write it to the csv file
@@ -81,6 +81,8 @@ with open("abstracts.csv", "wt") as abstracts_file, open ("partial_abstracts.csv
         #To obtain categories, split every double newline.
         split_abstract = abstract.split("\n\n")
         if len(split_abstract) > 5:
+            indices = [4]
+            split_abstract = [split_abstract[i] for i in indices]
             abstract_writer.writerow(split_abstract)
         else:
             partial_abstract_writer.writerow(split_abstract)
