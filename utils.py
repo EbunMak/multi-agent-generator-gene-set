@@ -8,6 +8,7 @@ import json
 import mygene
 import os
 import csv
+from collections import defaultdict
 
 # legacy graph state
 # class GraphState(TypedDict):
@@ -155,34 +156,34 @@ def clean_model_output(raw_output: str):
     return cleaned
 
 
-# def parse_out_json(text):
-#     match = re.search(r"content=.*?({.*?})[\\n']", text, re.DOTALL)
-#     if match:
-#         json_str = match.group(1)  # Get the JSON-like string
 
-#         # Step 2: Unescape newline characters and clean the string
-#         json_str = json_str.replace('\\n', '')       # Remove newline escapes
-#         json_str = json_str.replace('\\r', '')       # Remove carriage return escapes
-#         json_str = json_str.replace('\\t', '')       # Remove tab escapes
-#         json_str = json_str.replace('\\"', '"')      # Replace escaped quotes
-#         json_str = json_str.replace("\\'", "'")      # Replace escaped single quotes
-#         json_str = json_str.replace('\\\\', '\\')    # Replace double backslash with single
-#         json_str = json_str.replace('\\', '')   
-#         print(json_str)
-        
-#         # Step 3: Parse the cleaned string
-#         parsed_data = json.loads(json_str)  # Now it's valid JSON!
 
-#         # Step 4: Optionally reformat into compact JSON
-#         formatted_json = json.dumps(parsed_data, separators=(',', ':'))
+# Reads a 'phenotypes-to-genes' txt file and creates a phenotype-to-gene-sets file.
+def build_phenotype_to_gene_sets(input_file: str, output_file: str):
+    
+    phenotype_genes = defaultdict(set)
+    phenotype_names = {}
 
-#         return formatted_json
-#     else:
-#         return "No JSON content found."
+    # --- Read input file ---
+    with open(input_file, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
 
-# Input files
-# phenotype_file = "out/phenotype_to_gene_sets.txt"
-# hpo_db_file = "geneset data/c5.hpo.v2025.1.Hs.entrez.gmt"
+        for row in reader:
+            hpo_id = row["hpo_id"].strip()
+            hpo_name = row["hpo_name"].strip()
+            gene_symbol = row["gene_symbol"].strip()
+
+            phenotype_names[hpo_id] = hpo_name
+            phenotype_genes[hpo_id].add(gene_symbol)
+
+    # --- Write output file ---
+    with open(output_file, "w", encoding="utf-8") as f:
+        writer = csv.writer(f, delimiter="\t")
+        writer.writerow(["hpo_id", "hpo_name", "genes"])
+
+        for hpo_id, genes in phenotype_genes.items():
+            writer.writerow([hpo_id, phenotype_names[hpo_id], ",".join(sorted(genes))])
+
 
 def compare_to_phenotypes_msigdb(phenotype_file, hpo_db_file):
     # --- Load phenotype gene sets ---
@@ -228,7 +229,6 @@ def compare_to_phenotypes_msigdb(phenotype_file, hpo_db_file):
     print(f"Only in database file: {len(only_in_db)}")
 
     return in_both, only_in_phenotypes, only_in_db, db_gene_sets
-
 
 def check_is_gene_annotated(pmids, ga_pmids):
     # if not os.path.exists(PMIDS_FILE):
