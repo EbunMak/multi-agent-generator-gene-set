@@ -2,26 +2,36 @@ import time
 from langgraph.graph import END
 from langgraph.graph import StateGraph
 from pubtator import Pubtator
-from utils import GraphState, get_llm, get_llm_json_mode, clean_model_output, check_is_gene_annotated, save_to_json_list
+from utils import GraphState, get_llm, get_llm_json_mode, clean_model_output, save_to_json_list
 from langchain_core.messages import HumanMessage, SystemMessage
 from instructs import rag_prompt2, grade_abstracts_instructions2
-import json 
+import json
 import os
-from typing import Dict, Any
-import asyncio
 
-CHECKED_PMIDS_FILE = "checked_pmids.json"
-PMIDS_FILE = "abstracts/pubtator/gene2pubtator/pmids.txt"
-
-with open(PMIDS_FILE, "r") as f:
-    ga_pmids = list({int(line.strip()) for line in f if line.strip()} ) # set
+CHECKED_PMIDS_FILE = "checked_pmids_gene_checker.json"  # optional cache if you want
 
 def retrieve_pubtator_abstracts(state: GraphState):
+    """
+    Retrieve abstracts for a given phenotype + gene.
+    - If cached abstracts exist, load them from disk.
+    - Otherwise, query PubTator, save the raw abstracts once, and return them.
+    """
     phenotype = state["phenotype"]
     query = phenotype["name"].strip()
     gene = phenotype["gene"].strip()
 
-    # Retrieve 10 abstracts directly
+    base_dir = "abstracts/gene_related_abstracts"
+    os.makedirs(base_dir, exist_ok=True)
+    cache_file = os.path.join(base_dir, f"{query}_{gene}.json")
+
+    # If cached, just load and return
+    if os.path.exists(cache_file):
+        print(f"Loading cached abstracts for {query} / {gene}")
+        with open(cache_file, "r") as f:
+            abstracts = json.load(f)
+        return {"documents": abstracts}
+
+    # Else: query PubTator directly
     pmids = Pubtator.search_pubtator_ID(relation=f"@GENE_{gene} AND {query}", limit=1)
     print(f"Fetched {len(pmids)} PMIDs for {gene} and {query}")
 
@@ -32,23 +42,27 @@ def retrieve_pubtator_abstracts(state: GraphState):
             if abs_data:
                 abstracts.append(abs_data)
         except Exception as e:
-            print(f"⚠️ Error fetching PMID {pmid}: {e}")
-    save_to_json_list(abstracts, f"abstracts/gene_related_abstracts/{query}_{gene}")
+            print(f"Error fetching PMID {pmid}: {e}")
+
+    # Save raw abstracts once
+    save_to_json_list(abstracts, cache_file)
+    print(f"Saved {len(abstracts)} abstracts to {cache_file}")
+
     return {"documents": abstracts}
 
 
 def grade_abstracts(state, llm_name):
+    """
+    Grade abstracts for phenotype+gene relevance using ONLY abstracts passed in state["documents"].
+    No file I/O for abstracts here.
+    """
     phenotype = state["phenotype"]
     gene = phenotype["gene"]
-    safe_name = f"{phenotype['name']}_{gene}"
-    infile = f"abstracts/gene_related_abstracts/{safe_name}"
 
-    if not os.path.exists(infile):
-        print(f"⚠️ No abstracts found for {safe_name}")
+    documents = state.get("documents", [])
+    if not documents:
+        print(f"No abstracts to grade for {phenotype['name']} / {gene}")
         return {f"documents_{llm_name}": []}
-
-    with open(infile, "r") as f:
-        documents = json.load(f)
 
     question = (
         f"Does this abstract discuss BOTH the gene '{gene}' "
@@ -72,28 +86,27 @@ def grade_abstracts(state, llm_name):
             grade = json.loads(result.content)["binary_score"].strip().lower()
             if grade == "yes":
                 filtered.append(doc)
-        except:
+        except Exception as e:
+            print(f"Skipping abstract due to parse error: {e}")
             continue
 
-    outfile = f"abstracts/gene_related_abstracts/{safe_name}__filtered_{llm_name}.json"
-    with open(outfile, "w") as f:
-        json.dump(filtered, f, indent=2)
-    print(f"✅ Saved filtered abstracts to {outfile}")
+    print(f"Kept {len(filtered)} abstracts after grading for {phenotype['name']} / {gene}")
     return {f"documents_{llm_name}": filtered}
 
 
 def generate(state, llm_name):
+    """
+    Use only the filtered abstracts from the grader (state[f"documents_{llm_name}"])
+    to decide whether the gene is supported for the phenotype.
+    """
     phenotype = state["phenotype"]
     gene = phenotype["gene"]
-    safe_name = f"{phenotype['name']}_{gene}"
+    safe_name = phenotype["name"]
 
-    infile = f"abstracts/gene_related_abstracts/{safe_name}__filtered_{llm_name}.json"
-    if not os.path.exists(infile):
-        print(f"⚠️ No filtered abstracts for {safe_name}")
+    documents = state.get(f"documents_{llm_name}", [])
+    if not documents:
+        print(f"No filtered abstracts for {safe_name} / {gene}")
         return {f"generation_{llm_name}": []}
-
-    with open(infile, "r") as f:
-        documents = json.load(f)
 
     pmids = [d.get("pmid") for d in documents]
     formatted_docs = [
@@ -101,8 +114,6 @@ def generate(state, llm_name):
         for d in documents
     ]
     context = "\n\n".join(formatted_docs)
-
-    
 
     question = f"Is gene '{gene}' supported as being associated with phenotype '{phenotype['name']}'?"
 
@@ -114,28 +125,19 @@ def generate(state, llm_name):
 
     try:
         generation = json.loads(result.content)
-    except:
+    except Exception:
         generation = json.loads(clean_model_output(result.content))
+
     generation["PMIDS"] = pmids
 
-    outfile = f"out/phenotype_checks/{llm_name}/{phenotype['name']}/{gene}.json"
+    outfile = f"out/phenotype_checks/{llm_name}/{safe_name}/{gene}.json"
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
     with open(outfile, "w") as f:
         json.dump(generation, f, indent=2)
-    print(f"✅ Saved generation for {gene} and {phenotype['name']} to {outfile}")
-
-    # ✅ Remove phenotype abstracts after model finished
-    filtered_abstract_file = f"abstracts/gene_related_abstracts/{safe_name}__filtered_{llm_name}.json"
-    if os.path.exists(filtered_abstract_file):
-        os.remove(filtered_abstract_file)
-        print(f"🗑️ Removed {filtered_abstract_file}")
+    print(f"Saved generation for {gene} and {safe_name} to {outfile}")
 
     return {f"generation_{llm_name}": generation}
 
-
-
-
-from langgraph.graph import StateGraph, END
 
 def create_control_flow():
     workflow = StateGraph(GraphState)
@@ -143,16 +145,16 @@ def create_control_flow():
     # Step 1: Retrieve abstracts
     workflow.add_node("retrieve", retrieve_pubtator_abstracts)
 
-    # Step 2: Grade abstracts for phenotype + gene relevance using DeepSeek
-    workflow.add_node("grade_ds", lambda s: grade_abstracts(s, "deepseek-r1:8b"))
+    # Step 2: Grade abstracts for phenotype + gene relevance using llama
+    workflow.add_node("grade_llama", lambda s: grade_abstracts(s, "llama3.1:8b"))
 
     # Step 3: Generate inference (validate gene–phenotype association)
-    workflow.add_node("gen_ds", lambda s: generate(s, "deepseek-r1:8b"))
+    workflow.add_node("gen_llama", lambda s: generate(s, "llama3.1:8b"))
 
     # Define workflow structure
     workflow.set_entry_point("retrieve")
-    workflow.add_edge("retrieve", "grade_ds")
-    workflow.add_edge("grade_ds", "gen_ds")
-    workflow.add_edge("gen_ds", END)
+    workflow.add_edge("retrieve", "grade_llama")
+    workflow.add_edge("grade_llama", "gen_llama")
+    workflow.add_edge("gen_llama", END)
 
     return workflow.compile()

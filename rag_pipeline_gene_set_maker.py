@@ -36,7 +36,7 @@ def retrieve_pubtator_abstracts(state: GraphState):
     else:
         checked_pmids = {}
 
-    pmids = Pubtator.search_pubtator_ID(query=name)
+    pmids = Pubtator.search_pubtator_ID(query=name, limit=1)
     pmids = check_is_gene_annotated(pmids, ga_pmids)
 
     abstracts = []

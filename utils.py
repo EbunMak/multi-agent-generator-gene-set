@@ -247,3 +247,48 @@ def save_to_json_list(results, output_file):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
+
+
+def read_gmt(file_path):
+    """
+    Read a GMT file and return a dictionary:
+    { gene_set_name: [list_of_genes] }
+
+    Cleans gene set names such as 'HP_11_PAIRS_OF_RIBS' → '11 pairs of ribs'.
+    This must match the phenotype['name'] used in the maker pipeline.
+    """
+    gene_sets = {}
+    with open(file_path, "r") as f:
+        for line in f:
+            parts = line.strip().split("\t")
+            if len(parts) < 3:
+                continue
+            raw_name = parts[0]
+            cleaned_name = (
+                raw_name.replace("HP_", "")
+                        .replace("MP_", "")
+                        .replace("_", " ")
+                        .strip()
+                        .capitalize()
+            )
+            genes = parts[2:]
+            gene_sets[cleaned_name] = genes
+    return gene_sets
+
+def read_phenotype_to_gene_sets(file_path):
+    gene_sets = {}
+    with open(file_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            hpo_id = row["hpo_id"].strip()
+            hpo_name = row["hpo_name"].strip()
+            genes = [gene.strip() for gene in row["genes"].split(",") if gene.strip()]
+            cleaned_name = (
+                hpo_name.replace("HP_", "")
+                        .replace("MP_", "")
+                        .replace("_", " ")
+                        .strip()
+                        .capitalize()
+            )
+            gene_sets[cleaned_name] = genes
+    return gene_sets

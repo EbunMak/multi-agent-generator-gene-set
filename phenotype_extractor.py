@@ -77,6 +77,6 @@ def extract_phenotype_details(phenotype_name: str, output_file: str):
 
 
 # Example usage:
-phenotype_list = []
+phenotype_list = ["Aplasia of the ulna", "Patchy changes of bone mineral density"]
 for phenotype in phenotype_list:
     extract_phenotype_details(phenotype, "out/phenotype_details.json")
