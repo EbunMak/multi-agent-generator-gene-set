@@ -186,9 +186,9 @@ python3 evaluation.py --original_gmt <path> --new_gmt <path>
 
 This produces:
 
-* `out/evaluation/gene_set_comparison.csv`
-* `out/evaluation/gene_set_similarity.csv`
-* `out/evaluation/gene_analysis.txt`
+* `out/genesets/evaluation/gene_set_comparison.csv`
+* `out/genesets/evaluation/gene_set_similarity.csv`
+* `out/genesets/evaluation/gene_analysis.txt`
   (containing summary statistics: mean loss, mean new genes, overall similarity)
 
 

@@ -93,7 +93,7 @@ if __name__ == "__main__":
         "--comparison_csv",
         type=str,
         required=False,
-        default="out/evaluation/gene_set_comparison.csv",
+        default="out/genesets/evaluation/gene_set_comparison.csv",
         help="Path to the gene set comparison CSV file."
     )
 

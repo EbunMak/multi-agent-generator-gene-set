@@ -135,9 +135,9 @@ def build_shared_gmt(consensus_gmt, phenotype_gene_file, output_gmt="phenotype_c
 
 def main(qwen_gmt, deepseek_gmt, llama_gmt):
 
-    consensus_out = "consensus_gene_sets.gmt"
+    consensus_out = "out/genesets/consensus_gene_sets.gmt"
     phenotype_gene_file = "out/phenotype_to_gene_sets.txt"
-    shared_out = "out/phenotype_consensus_gene_sets.gmt"
+    shared_out = "out/genesets/phenotype_consensus_gene_sets.gmt"
 
     # Build consensus GMT
     make_consensus_gmt(

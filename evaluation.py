@@ -156,9 +156,9 @@ def write_text_report(path, comparison_stats, similarity_stats):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compare two GMT files and generate comparison outputs.")
     parser.add_argument("--original_gmt", type=str, required=False,
-                        default="out/phenotype_consensus_gene_sets.gmt")
+                        default="out/genesets/phenotype_consensus_gene_sets.gmt")
     parser.add_argument("--new_gmt", type=str, required=False,
-                        default="out/Consensus_gene_sets.gmt")
+                        default="out/genesets/consensus_gene_sets.gmt")
 
     args = parser.parse_args()
 

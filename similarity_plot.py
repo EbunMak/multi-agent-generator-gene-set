@@ -100,7 +100,7 @@ if __name__ == "__main__":
         "--similarity_csv",
         type=str,
         required=False,
-        default="out/evaluation/gene_set_similarity.csv",
+        default="out/genesets/evaluation/gene_set_similarity.csv",
         help="Path to gene set similarity CSV file."
     )
 
