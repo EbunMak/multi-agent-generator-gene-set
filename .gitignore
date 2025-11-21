@@ -1,19 +1,5 @@
 chroma_db/
 ollama.log
-geneset data/
 parallel run 2/
 __pycache__/
-abstracts/
-out/
 .venv/
-abstracts.csv
-abstracts.txt
-partial_abstracts.csv
-*.gmt
-*.json
-*.txt
-*.pdf
-*.csv
-*.png
-*.slurm
-*.svg

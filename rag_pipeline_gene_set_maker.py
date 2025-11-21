@@ -10,7 +10,7 @@ import os
 import asyncio
 
 CHECKED_PMIDS_FILE = "checked_pmids.json"
-PMIDS_FILE = "abstracts/pubtator/gene2pubtator/pmids.txt"
+PMIDS_FILE = "abstracts/pmids.txt"
 
 with open(PMIDS_FILE, "r") as f:
     # get PMIDs that are gene-annotated
@@ -36,7 +36,7 @@ def retrieve_pubtator_abstracts(state: GraphState):
     else:
         checked_pmids = {}
 
-    pmids = Pubtator.search_pubtator_ID(query=name, limit=1)
+    pmids = Pubtator.search_pubtator_ID(query=name, limit=25)
     pmids = check_is_gene_annotated(pmids, ga_pmids)
 
     abstracts = []
@@ -74,7 +74,7 @@ def retrieve_pubtator_abstracts(state: GraphState):
 
 
 
-async def grade_abstracts(state, llm_name):
+def grade_abstracts(state, llm_name):
     print("---CHECK ABSTRACT RELEVANCE---")
 
     phenotype = state["phenotype"]
@@ -135,7 +135,7 @@ def safe_json_loads(raw_output):
             return []
 
 
-async def generate(state, llm_name):
+def generate(state, llm_name):
     """
     Generate gene extraction results using only the in-memory filtered abstracts.
     Save:
@@ -224,38 +224,41 @@ def create_control_flow():
 
     workflow = StateGraph(GraphState)
 
-    # Helper to run async coroutines synchronously
-    def run_async(coro):
-        return asyncio.run(coro)
+    # Add nodes (all synchronous functions)
+    workflow.add_node("retrieve", retrieve_pubtator_abstracts)
 
-    # Define the nodes
-    workflow.add_node("retrieve", retrieve_pubtator_abstracts)  # retrieve
-    
-    # grade documents wrapped with run_async
-    workflow.add_node("grade_qwen", lambda state: run_async(grade_abstracts(state, llm_name="qwen3:32b")))
-    workflow.add_node("grade_deepseek", lambda state: run_async(grade_abstracts(state, llm_name="deepseek-r1:8b")))
-    workflow.add_node("grade_llama3", lambda state: run_async(grade_abstracts(state, llm_name="llama3.1:8b")))
+    workflow.add_node("grade_qwen",
+        lambda state: grade_abstracts(state, llm_name="qwen3:32b")
+    )
+    workflow.add_node("grade_deepseek",
+        lambda state: grade_abstracts(state, llm_name="deepseek-r1:8b")
+    )
+    workflow.add_node("grade_llama3",
+        lambda state: grade_abstracts(state, llm_name="llama3.1:8b")
+    )
 
-    # generate nodes wrapped with run_async
-    workflow.add_node("generate_qwen", lambda state: run_async(generate(state, llm_name="qwen3:32b")))
-    workflow.add_node("generate_deepseek", lambda state: run_async(generate(state, llm_name="deepseek-r1:8b")))
-    workflow.add_node("generate_llama3", lambda state: run_async(generate(state, llm_name="llama3.1:8b")))
+    workflow.add_node("generate_qwen",
+        lambda state: generate(state, llm_name="qwen3:32b")
+    )
+    workflow.add_node("generate_deepseek",
+        lambda state: generate(state, llm_name="deepseek-r1:8b")
+    )
+    workflow.add_node("generate_llama3",
+        lambda state: generate(state, llm_name="llama3.1:8b")
+    )
 
-    # Build graph
+    # Entry point
     workflow.set_entry_point("retrieve")
 
-    # Run LLMs in parallel AFTER retrieval
+    # STRICT SYNCHRONOUS ORDER
     workflow.add_edge("retrieve", "grade_qwen")
-    workflow.add_edge("retrieve", "grade_deepseek")
-    workflow.add_edge("retrieve", "grade_llama3")
+    workflow.add_edge("grade_qwen", "grade_deepseek")
+    workflow.add_edge("grade_deepseek", "grade_llama3")
 
-    workflow.add_edge("grade_qwen", "generate_qwen")
-    workflow.add_edge("grade_deepseek", "generate_deepseek")
-    workflow.add_edge("grade_llama3", "generate_llama3")
+    workflow.add_edge("grade_llama3", "generate_qwen")
+    workflow.add_edge("generate_qwen", "generate_deepseek")
+    workflow.add_edge("generate_deepseek", "generate_llama3")
 
-    # End after all generations
-    workflow.add_edge("generate_qwen", END)
-    workflow.add_edge("generate_deepseek", END)
     workflow.add_edge("generate_llama3", END)
 
     # Compile

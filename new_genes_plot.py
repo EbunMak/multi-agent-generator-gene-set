@@ -1,76 +1,101 @@
+import argparse
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
 
-# Reset to default fonts (no LaTeX)
+
 plt.rcParams.update({
     "text.usetex": False,
     "font.family": "sans-serif",
     "font.size": 14
 })
 
-# Load data
-df = pd.read_csv("gene_set_comparison_sample_437.csv")
-new_genes = df["# New"].dropna()
 
-# Compute mean
-mean_val = new_genes.mean()
+def make_plot(csv_path):
+    # Load data
+    df = pd.read_csv(csv_path)
+    new_genes = df["# New"].dropna()
 
-# Create figure
-plt.figure(figsize=(10,6))
+    # Compute mean
+    mean_val = new_genes.mean()
 
-# Histogram (pastel green)
-hist_color = "#b2df8a"       # pastel green (light)
-kde_color  = "#33a02c"       # darker green to match (visible)
+    # Prepare output dir relative to CSV file
+    base_dir = os.path.dirname(csv_path)
+    plot_dir = os.path.join(base_dir, "plots")
+    os.makedirs(plot_dir, exist_ok=True)
 
-counts, bins, patches = plt.hist(
-    new_genes,
-    bins=25,
-    density=True,
-    alpha=0.6,
-    color=hist_color,
-    edgecolor="black",
-    label="Histogram"
-)
+    plt.figure(figsize=(10, 6))
+    hist_color = "#b2df8a"
+    kde_color = "#33a02c"
 
-# KDE (smooth density curve in darker green)
-kde = gaussian_kde(new_genes, bw_method=0.3)
-x_vals = np.linspace(new_genes.min(), new_genes.max(), 600)
-y_vals = kde(x_vals)
+    # Histogram
+    plt.hist(
+        new_genes,
+        bins=25,
+        density=True,
+        alpha=0.6,
+        color=hist_color,
+        edgecolor="black",
+        label="Histogram"
+    )
 
-plt.plot(
-    x_vals,
-    y_vals,
-    linewidth=2.5,
-    color=kde_color,
-    label="Density Curve"
-)
+    # KDE
+    kde = gaussian_kde(new_genes, bw_method=0.3)
+    x_vals = np.linspace(new_genes.min(), new_genes.max(), 600)
+    y_vals = kde(x_vals)
+    plt.plot(
+        x_vals,
+        y_vals,
+        linewidth=2.5,
+        color=kde_color,
+        label="Density Curve"
+    )
 
-# Mean line
-plt.axvline(
-    mean_val,
-    color="red",
-    linestyle="--",
-    linewidth=2,
-    label=f"Mean = {mean_val:.2f}"
-)
+    # Mean Line
+    plt.axvline(
+        mean_val,
+        color="red",
+        linestyle="--",
+        linewidth=2,
+        label=f"Mean = {mean_val:.2f}"
+    )
 
-# Labels + Title (bold)
-plt.title("Distribution of New Genes Added to Gene Sets", fontsize=18, fontweight="bold")
-plt.xlabel("New Genes Added", fontsize=16, fontweight="bold")
-plt.ylabel("Density", fontsize=16, fontweight="bold")
+    # Labels + Title
+    plt.title("Distribution of New Genes Added to Gene Sets",
+              fontsize=18, fontweight="bold")
+    plt.xlabel("New Genes Added", fontsize=16, fontweight="bold")
+    plt.ylabel("Density", fontsize=16, fontweight="bold")
+    plt.legend(fontsize=14, frameon=True)
 
-# Legend styling
-plt.legend(fontsize=14, frameon=True)
+    plt.grid(alpha=0.15)
+    plt.tight_layout()
 
-# Grid + layout
-plt.grid(alpha=0.15)
-plt.tight_layout()
+    #  Save Outputs
+    base_name = os.path.join(plot_dir, "new_genes_distribution")
 
-# Save high-resolution outputs
-plt.savefig("new_genes_distribution_clean.png", dpi=400)
-plt.savefig("new_genes_distribution_clean.svg")
-plt.savefig("new_genes_distribution_clean.pdf")
+    plt.savefig(f"{base_name}.png", dpi=400)
+    plt.savefig(f"{base_name}.pdf")
+    plt.savefig(f"{base_name}.svg")
 
-plt.show()
+    print("\nSaved plots:")
+    print(f" - {base_name}.png")
+    print(f" - {base_name}.pdf")
+    print(f" - {base_name}.svg\n")
+
+    plt.close()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--comparison_csv",
+        type=str,
+        required=False,
+        default="out/evaluation/gene_set_comparison.csv",
+        help="Path to the gene set comparison CSV file."
+    )
+
+    args = parser.parse_args()
+    make_plot(args.comparison_csv)

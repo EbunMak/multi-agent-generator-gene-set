@@ -9,9 +9,9 @@ from rag_pipeline_gene_checker import create_control_flow as create_checker_flow
 PROCESSED_FILE = "out/processed_phenotypes.txt"
 
 # Checker-specific progress files
-PROCESSED_GENES_FILE = "processed_genes.json"
-PROCESSED_SETS_FILE = "processed_gene_sets.txt"
-GMT_PATH = "out/phenotype_to_gene_sets.gmt"
+PROCESSED_GENES_FILE = "out/processed_genes.json"
+PROCESSED_SETS_FILE = "out/processed_gene_sets.txt"
+GMT_PATH = "out/phenotype_to_gene_sets.txt"
 
 
 def load_processed():
