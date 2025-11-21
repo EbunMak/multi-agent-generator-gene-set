@@ -1,7 +1,5 @@
 ### LLM
 from langchain_ollama import ChatOllama
-from langchain.prompts import PromptTemplate
-from langchain_core.output_parsers import StrOutputParser
 
 local_llm = "llama3.1:8b"
 llm = ChatOllama(model=local_llm, temperature=0)

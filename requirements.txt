@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+scipy
+requests
+mygene
+langchain-core
+langchain-ollama
+langgraph
