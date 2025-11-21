@@ -1,0 +1,18 @@
+[
+  {
+    "id": "HP:0003982",
+    "name": "Aplasia of the ulna",
+    "description": "Missing ulna bone associated with congenital failure of development.",
+    "synonyms": [
+      "Absent ossification/absent ulna",
+      "Absent ulna",
+      "Absent ulnae"
+    ]
+  },
+  {
+    "id": "HP:0010658",
+    "name": "Patchy changes of bone mineral density",
+    "description": "Patchy (irregular) changes in bone mineral density. These changes can either be patchy reduction or increase of mineral density as seen on x-rays. Depending on the pathomechanism and the underlying disease, these changes can either appear solely as reduction or increase or as a combination of both (patches of bone showing an increased density while others are affected by reduction of mineral density).",
+    "synonyms": []
+  }
+]
