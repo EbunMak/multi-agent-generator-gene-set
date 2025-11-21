@@ -1,1 +1,5 @@
 chroma_db/
+ollama.log
+parallel run 2/
+__pycache__/
+.venv/
